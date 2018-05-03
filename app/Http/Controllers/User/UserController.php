@@ -13,5 +13,17 @@ class UserController extends Controller
 
         return view('contact');
     }
+    public function aboutUs(){
+
+        return view('about');
+    }
+    public function services(){
+
+        return view('services');
+    }
+    public function projects(){
+
+        return view('projects');
+    }
 
 }

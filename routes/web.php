@@ -27,6 +27,9 @@ Route::post('/reset/password', 'Auth\ResetPasswordController@resetPassword');
 Route::post('loginrr', 'Admin\AdminController@authenticate');
 Route::get('logout', 'Admin\AdminController@logout');
 Route::get('/contact-us', 'User\UserController@contactUs');
+Route::get('/about-us', 'User\UserController@aboutUs');
+Route::get('/services', 'User\UserController@services');
+Route::get('/projects', 'User\UserController@projects');
 
 
 Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {

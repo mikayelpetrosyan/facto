@@ -1,15 +1,4 @@
 
-<!--Start Top bar area -->
-<section class="top-bar-area">
-    <div class="container">
-        <div class="clearfix">
-            <div class="pull-left"><p>Welcome to Factory &amp; Industrial buisness</p></div>
-            <div class="pull-right"><p><i class="fa fa-clock-o"></i>Monday - friday : 8:00 AM to 7:00 PM</p></div>
-        </div>
-    </div>
-</section>
-<!--End Top bar area -->
-
 <!--Start header area-->
 <header class="header-area">
     <div class="container">
@@ -70,61 +59,20 @@
                             <ul class="navigation clearfix">
                                 <li id="menu-item-17"
                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-17 dropdown">
-                                    <a title="Home" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                    <a title="Home" href="/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                        data-options="easing: easeOutQuart">Home</a>
-                                    <ul role="menu" class="submenu">
-                                        <li id="menu-item-93"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-93 active">
-                                            <a title="Header Style One" href="http://tonatheme.com/newwp/factory/">Header Style One</a></li>
-                                        <li id="menu-item-377" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-377"><a title="Header Style Two"
-                                                                                                                                                href="http://tonatheme.com/newwp/factory/header-style-two/?header_style=header_v2">Header
-                                            Style Two</a></li>
-                                    </ul>
                                 </li>
                                 <li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 dropdown"><a
-                                        title="About Us" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        title="About Us" href="/about-us" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                         data-options="easing: easeOutQuart">About Us</a>
-                                    <ul role="menu" class="submenu">
-                                        <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a title="About Us"
-                                                                                                                                               href="http://tonatheme.com/newwp/factory/about-us/">About
-                                            Us</a></li>
-                                        <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a title="Our Team"
-                                                                                                                                               href="http://tonatheme.com/newwp/factory/our-team/">Our
-                                            Team</a></li>
-                                        <li id="menu-item-189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a title="FAQs"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/faqs/">FAQs</a>
-                                        </li>
-                                        <li id="menu-item-190" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-190"><a title="404 Page"
-                                                                                                                                                href="http://tonatheme.com/newwp/factory/abc123">404
-                                            Page</a></li>
-                                        <li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a title="Testimonials"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/testimonials/">Testimonials</a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li id="menu-item-191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-191 dropdown"><a
-                                        title="Services" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        title="Services" href="/services" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                         data-options="easing: easeOutQuart">Services</a>
-                                    <ul role="menu" class="submenu">
-                                        <li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a title="Services"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/services/">Services</a>
-                                        </li>
-                                        <li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a title="Single Service"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/single-service/">Single
-                                            Service</a></li>
-                                    </ul>
                                 </li>
                                 <li id="menu-item-200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-200 dropdown"><a
-                                        title="Projects" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        title="Projects" href="/projects" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                         data-options="easing: easeOutQuart">Projects</a>
-                                    <ul role="menu" class="submenu">
-                                        <li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a title="Projects"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/projects/">Projects</a>
-                                        </li>
-                                        <li id="menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-211"><a title="Single Project"
-                                                                                                                                                href="http://tonatheme.com/newwp/factory/projects/material-engineering/">Single
-                                            Project</a></li>
-                                    </ul>
                                 </li>
                                 <li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-235 dropdown"><a
                                         title="Latest News" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
@@ -136,27 +84,6 @@
                                         <li id="menu-item-237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-237"><a title="Blog Single Post"
                                                                                                                                                 href="http://tonatheme.com/newwp/factory/take-a-step-that-is-ne-weve-a-loveable-space-that-needs/">Blog
                                             Single Post</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-238 dropdown"><a
-                                        title="Shop" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
-                                        data-options="easing: easeOutQuart">Shop</a>
-                                    <ul role="menu" class="submenu">
-                                        <li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287"><a title="Shop Products"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/shop/">Shop
-                                            Products</a></li>
-                                        <li id="menu-item-288" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-288"><a title="Single Product"
-                                                                                                                                                href="http://tonatheme.com/newwp/factory/product/flying-ninja/">Single
-                                            Product</a></li>
-                                        <li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a title="Cart"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/cart/">Cart</a>
-                                        </li>
-                                        <li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a title="Checkout"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/checkout/">Checkout</a>
-                                        </li>
-                                        <li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a title="My Account"
-                                                                                                                                                 href="http://tonatheme.com/newwp/factory/my-account/">My
-                                            Account</a></li>
                                     </ul>
                                 </li>
                                 <li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a title="Contact Us"
@@ -291,17 +218,6 @@
 
             <div class="right-column">
                 <div class="right-area">
-                    <div class="nav_side_content">
-                        <div class="search_option">
-                            <button class="search tran3s dropdown-toggle color1_bg" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-search" aria-hidden="true"></i></button>
-                            <form action="http://tonatheme.com/newwp/factory/" method="get" class="dropdown-menu" aria-labelledby="searchDropdown">
-                                <input type="text" name="s" placeholder="Search...">
-                                <button><i class="fa fa-search" aria-hidden="true"></i></button>
-                            </form>
-                        </div>
-                    </div>
-
                     <div class="link_btn float_right">
                         <a href="#" class="thm-btn bg-clr1">Get A Quote</a>
                     </div>

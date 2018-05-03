@@ -49,31 +49,7 @@
                                                 </div>
                                             </div>
 
-                                            <!-- LAYER NR. 2 -->
-                                            <div class="tp-caption   tp-resizeme"
-                                                 id="slide-2-layer-2"
-                                                 data-x="center" data-hoffset="100"
-                                                 data-y="center" data-voffset="100"
-                                                 data-width="['auto']"
-                                                 data-height="['auto']"
 
-                                                 data-type="text"
-                                                 data-responsive_offset="on"
-
-                                                 data-frames='[{"delay":10,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                                 data-textAlign="['inherit','inherit','inherit','inherit']"
-                                                 data-paddingtop="[0,0,0,0]"
-                                                 data-paddingright="[0,0,0,0]"
-                                                 data-paddingbottom="[0,0,0,0]"
-                                                 data-paddingleft="[0,0,0,0]"
-
-                                                 style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
-                                                <div class="slide-content-box">
-                                                    <div class="button">
-                                                        <a class="thm-btn bg-clr1" href="#">About Us</a>
-                                                    </div>
-                                                </div>
-                                            </div>
 
                                             <!-- LAYER NR. 3 -->
                                             <div class="tp-caption   tp-resizeme"
@@ -137,31 +113,7 @@
                                                 </div>
                                             </div>
 
-                                            <!-- LAYER NR. 5 -->
-                                            <div class="tp-caption   tp-resizeme"
-                                                 id="slide-1-layer-2"
-                                                 data-x=""
-                                                 data-y="center" data-voffset="110"
-                                                 data-width="['auto']"
-                                                 data-height="['auto']"
 
-                                                 data-type="text"
-                                                 data-responsive_offset="on"
-
-                                                 data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                                 data-textAlign="['inherit','inherit','inherit','inherit']"
-                                                 data-paddingtop="[0,0,0,0]"
-                                                 data-paddingright="[0,0,0,0]"
-                                                 data-paddingbottom="[0,0,0,0]"
-                                                 data-paddingleft="[0,0,0,0]"
-
-                                                 style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
-                                                <div class="slide-content-box">
-                                                    <div class="button">
-                                                        <a class="thm-btn bg-clr1" href="#">About Us</a>
-                                                    </div>
-                                                </div>
-                                            </div>
 
                                             <!-- LAYER NR. 6 -->
                                             <div class="tp-caption   tp-resizeme"
@@ -225,31 +177,6 @@
                                                 </div>
                                             </div>
 
-                                            <!-- LAYER NR. 8 -->
-                                            <div class="tp-caption   tp-resizeme"
-                                                 id="slide-3-layer-2"
-                                                 data-x=""
-                                                 data-y="center" data-voffset="100"
-                                                 data-width="['auto']"
-                                                 data-height="['auto']"
-
-                                                 data-type="text"
-                                                 data-responsive_offset="on"
-
-                                                 data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                                 data-textAlign="['inherit','inherit','inherit','inherit']"
-                                                 data-paddingtop="[0,0,0,0]"
-                                                 data-paddingright="[0,0,0,0]"
-                                                 data-paddingbottom="[0,0,0,0]"
-                                                 data-paddingleft="[0,0,0,0]"
-
-                                                 style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
-                                                <div class="slide-content-box">
-                                                    <div class="button">
-                                                        <a class="thm-btn bg-clr1" href="#">About Us</a>
-                                                    </div>
-                                                </div>
-                                            </div>
 
                                             <!-- LAYER NR. 9 -->
                                             <div class="tp-caption   tp-resizeme"
