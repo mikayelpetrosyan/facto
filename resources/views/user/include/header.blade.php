@@ -221,8 +221,9 @@
                     <div class="link_btn float_right">
                         <select id="languageSwitcher">
                             <option > </option>
-                            <option value="en">england</option>
-                            <option value="am">germany</option>
+                            <option value="en">Eng</option>
+                            <option value="am">Arm</option>
+                            <option value="ru">Ru</option>
                         </select>
                         <input type="hidden" id ='input_token' name="_token" value="{{ csrf_token() }}">
                     </div>
