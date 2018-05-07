@@ -31,6 +31,14 @@ Route::get('/about-us', 'User\UserController@aboutUs');
 Route::get('/services', 'User\UserController@services');
 Route::get('/projects', 'User\UserController@projects');
 
+//language route
+Route::post('/language-chooser', 'LanguageController@changeLanguage');
+Route::post('/language',array(
+        'before' => 'csrf',
+        'as'=>'language-chooser',
+        'uses'=>'LanguageController@changeLanguage'
+    )
+);
 
 Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
 

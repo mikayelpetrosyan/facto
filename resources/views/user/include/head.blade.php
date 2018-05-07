@@ -81,7 +81,7 @@
     <script type="text/javascript" src="{{ asset('userjs/jquery-migrate.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('userjs/jquery.themepunch.tools.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('userjs/jquery.themepunch.revolution.min.js') }}"></script>
-
+    <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
     <script type="text/javascript" src="{{ asset('userjs/map-helper.js') }}"></script>
 
 

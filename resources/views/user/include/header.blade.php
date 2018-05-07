@@ -60,11 +60,11 @@
                                 <li id="menu-item-17"
                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-17 dropdown">
                                     <a title="Home" href="/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
-                                       data-options="easing: easeOutQuart">Home</a>
+                                       data-options="easing: easeOutQuart">{{trans('app.Home')}}</a>
                                 </li>
                                 <li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 dropdown"><a
                                         title="About Us" href="/about-us" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
-                                        data-options="easing: easeOutQuart">About Us</a>
+                                        data-options="easing: easeOutQuart">{{trans('app.About_us')}}</a>
                                 </li>
                                 <li id="menu-item-191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-191 dropdown"><a
                                         title="Services" href="/services" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
@@ -219,7 +219,12 @@
             <div class="right-column">
                 <div class="right-area">
                     <div class="link_btn float_right">
-                        <a href="#" class="thm-btn bg-clr1">Get A Quote</a>
+                        <select id="languageSwitcher">
+                            <option > </option>
+                            <option value="en">england</option>
+                            <option value="am">germany</option>
+                        </select>
+                        <input type="hidden" id ='input_token' name="_token" value="{{ csrf_token() }}">
                     </div>
                 </div>
             </div>
