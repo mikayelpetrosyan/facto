@@ -17,9 +17,17 @@ class UserController extends Controller
 
         return view('about');
     }
-    public function services(){
+    public function Construction_engineering(){
 
-        return view('services');
+        return view('Construction_engineering');
+    }
+    public function Landscape_engineering(){
+
+        return view('Landscape_engineering');
+    }
+    public function Agricultural_engineering(){
+
+        return view('Agricultural_engineering');
     }
     public function projects(){
 

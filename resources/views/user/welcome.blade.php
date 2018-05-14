@@ -45,7 +45,7 @@
                                                  style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
                                                 <div class="slide-content-box">
                                                     <h1>Provide Solution <br>for Industries plan</h1>
-                                                    <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.</p>
+
                                                 </div>
                                             </div>
 
@@ -109,7 +109,6 @@
                                                  style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
                                                 <div class="slide-content-box">
                                                     <h1>We help Industries<br>innovate and grow.</h1>
-                                                    <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.</p>
                                                 </div>
                                             </div>
 
@@ -173,7 +172,6 @@
                                                  style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
                                                 <div class="slide-content-box">
                                                     <h1>Welcome to Factory & <br>Industrial Buisness </h1>
-                                                    <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed. </p>
                                                 </div>
                                             </div>
 

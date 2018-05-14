@@ -1655,6 +1655,12 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     text-transform: uppercase;
 }
 
+.enginText{
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+}
 
 
 
@@ -1734,6 +1740,15 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 .contact-form-area .form-right-box .img-box {
     display: block;
     margin-bottom: 23px;
+}
+.img-box a{
+    width: 100%;
+
+}
+.img-box img{
+    width: 100%;
+    height: auto;
+
 }
 .contact-form-area .form-right-box h4 {
     color: #222222;

@@ -28,7 +28,9 @@ Route::post('loginrr', 'Admin\AdminController@authenticate');
 Route::get('logout', 'Admin\AdminController@logout');
 Route::get('/contact-us', 'User\UserController@contactUs');
 Route::get('/about-us', 'User\UserController@aboutUs');
-Route::get('/services', 'User\UserController@services');
+Route::get('/services/Construction_engineering', 'User\UserController@Construction_engineering');
+Route::get('/services/Landscape_engineering', 'User\UserController@Landscape_engineering');
+Route::get('/services/Agricultural_engineering', 'User\UserController@Agricultural_engineering');
 Route::get('/projects', 'User\UserController@projects');
 
 //language route

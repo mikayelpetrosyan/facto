@@ -2,7 +2,8 @@
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image:url(http://tonatheme.com/newwp/factory/wp-content/themes/factory/images/background/3.jpg);">
         <div class="container text-center">
-            <h1>Our Service</h1>
+            <h1>{{trans('app.Construction_engineering')}}</h1>
+            <p class="enginText" align="justify "> {{trans('app.Construction_engin_text')}} </p>
         </div>
     </section>
     <!--End breadcrumb area-->

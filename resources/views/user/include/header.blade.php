@@ -69,8 +69,20 @@
                                         data-options="easing: easeOutQuart">{{trans('app.About_us')}}</a>
                                 </li>
                                 <li id="menu-item-191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-191 dropdown"><a
-                                        title="Services" href="/services" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
-                                        data-options="easing: easeOutQuart">Services</a>
+                                        title="Services" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        data-options="easing: easeOutQuart">{{trans('app.Services')}}</a>
+                                    <ul role="menu" class="submenu">
+                                        <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236">
+                                            <a title="Blog Default" href="/services/Construction_engineering">{{trans('app.Construction_engineering')}}</a>
+                                        </li>
+                                        <li id="menu-item-237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-237">
+                                            <a title="Blog Single Post" href="/services/Landscape_engineering">{{trans('app.Landscape_engineering')}}</a>
+                                        </li>
+                                        <li id="menu-item-237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-237">
+                                            <a title="Blog Single Post"
+                                               href="/services/Agricultural_engineering">{{trans('app.Agricultural_engineering')}}</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li id="menu-item-200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-200 dropdown"><a
                                         title="Projects" href="/projects" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
