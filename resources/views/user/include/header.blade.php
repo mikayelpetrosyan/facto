@@ -1,4 +1,6 @@
-
+<?php
+//dd(App::getlocale())
+?>
 <!--Start header area-->
 <header class="header-area">
     <div class="container">
@@ -220,10 +222,9 @@
                 <div class="right-area">
                     <div class="link_btn float_right">
                         <select id="languageSwitcher">
-                            <option > </option>
-                            <option value="en">Eng</option>
-                            <option value="am">Arm</option>
-                            <option value="ru">Ru</option>
+                            <option value="en" {{App::getlocale() == 'en' ? 'selected' : ''}}>Eng</option>
+                            <option value="am" {{App::getlocale() == 'am' ? 'selected' : ''}}>Arm</option>
+                            <option value="ru" {{App::getlocale() == 'ru' ? 'selected' : ''}}>Ru</option>
                         </select>
                         <input type="hidden" id ='input_token' name="_token" value="{{ csrf_token() }}">
                     </div>
