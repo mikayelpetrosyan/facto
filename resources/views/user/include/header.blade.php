@@ -1,6 +1,4 @@
-<?php
-//dd(App::getlocale())
-?>
+
 <!--Start header area-->
 <header class="header-area">
     <div class="container">
@@ -72,6 +70,16 @@
                                         title="Services" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                         data-options="easing: easeOutQuart">{{trans('app.Services')}}</a>
                                     <ul role="menu" class="submenu">
+                                        @foreach (Session::get('service') as $ser)
+
+                                            <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236">
+                                                <a title="Blog Default" href="/services/{{$ser->id}}">
+                                                    {{
+                                                        $ser->{"name_".App::getlocale()}
+                                                    }}
+                                                </a>
+                                            </li>
+                                        @endforeach
                                         <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236">
                                             <a title="Blog Default" href="/services/Construction_engineering">{{trans('app.Construction_engineering')}}</a>
                                         </li>

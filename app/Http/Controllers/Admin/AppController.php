@@ -10,12 +10,69 @@ use App\Category;
 use App\SubCategory;
 use App\App;
 use App\Dlink;
+use Symfony\Component\Routing\Loader\DependencyInjection\ServiceRouterLoader;
 use Yajra\Datatables\Datatables;
+use App\Services;
+use App\SubService;
+
 class AppController extends Controller
 {
     public function appsForm(){
         $subcategories = SubCategory::all();
         return view('add_app', compact('subcategories'));
+    }
+
+    public function serviceForm () {
+        return view('add_service');
+    }
+
+    public function addService (Request $request){
+        $service = new Services([
+            'name_en' => $request->name_en,
+            'name_am' => $request->name_am,
+            'name_ru' => $request->name_ru,
+            'title_en' => $request->title_en,
+            'title_am' => $request->title_am,
+            'title_ru' => $request->title_ru,
+        ]);
+        $service->save();
+
+        return redirect()->back()->with('status', 'App successfully added');
+
+    }
+
+    public function subserviceForm () {
+        $services = Services::all();
+        return view('add_subservice', compact('services'));
+    }
+
+    public function addsubService (Request $request){
+        if($request->method("post")){
+            $subcategory = Services::find($request->services_id);
+            if ($request->hasFile('img')) {
+                $originalName = $request->img->getClientOriginalName();
+                $generatedName = time() . $originalName;
+                if($request->img->storeAs('public/upload', $generatedName) ){
+                    $request->img = $generatedName;
+                };
+            }
+            $subService = new SubService([
+                'services_id' => $request->services_id,
+                'title_en' => $request->title_en,
+                'title_am' => $request->title_am,
+                'title_ru' => $request->title_ru,
+                'description_en' => $request->description_en,
+                'description_am' => $request->description_am,
+                'description_ru' => $request->description_ru,
+                'img' => $request->img,
+
+            ]);
+            $subService->save();
+
+            return redirect()->back()->with('status', 'App successfully added');
+
+        }
+
     }
 
     public function addApps(Request $request){

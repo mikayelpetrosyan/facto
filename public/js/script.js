@@ -1,5 +1,5 @@
 jQuery(function($){
-    $("#description").summernote({
+    $("#description_en").summernote({
         placeholder: 'Description',
         minHeight: 100,
         toolbar: [
@@ -15,23 +15,7 @@ jQuery(function($){
         ]
 
     });
-    $("#mode_application").summernote({
-        placeholder: 'Download Description',
-        minHeight: 100,
-
-        toolbar: [
-            // [groupName, [list of button]]
-            ['style', ['bold', 'italic', 'underline', 'clear']],
-            ['font', ['strikethrough', 'superscript', 'subscript', 'fontname']],
-            ['fontsize', ['fontsize']],
-            ['color', ['color']],
-            ['para', ['ul', 'ol', 'paragraph', 'style']],
-            ['height', ['height']],
-            ['misc',['fullscreen', 'codeview', 'undo', 'redo', 'help']],
-            ['insert',['link', 'table', 'hr']]
-        ]
-    });
-    $("#info").summernote({
+    $("#description_am").summernote({
         placeholder: 'Info',
         minHeight: 100,
         toolbar: [
@@ -46,7 +30,7 @@ jQuery(function($){
             ['insert',['link', 'table', 'hr']]
         ]
     });
-    $("#manual").summernote({
+    $("#description_ru").summernote({
         placeholder: 'Requirements',
         minHeight: 100,
         toolbar: [

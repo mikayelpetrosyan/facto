@@ -6,6 +6,7 @@ use Closure;
 use \Session;
 use App;
 use \Config;
+use App\Services;
 
 class Language
 {
@@ -25,6 +26,8 @@ class Language
         }else{
             $locale = 'en';
         }
+        $res = Services::all();
+        Session(['service' => $res]);
         App::setlocale($locale);
         return $next($request);
     }

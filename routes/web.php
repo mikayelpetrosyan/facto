@@ -70,4 +70,14 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     Route::get('apps/editform/{id}', ['uses' => 'Admin\AppController@editAppsForm', 'as'=>'apps_edit_form']);
     Route::post('apps/edit/{id}', ['uses' => 'Admin\AppController@editApps', 'as'=>'apps_edit']);
     Route::get('apps/delete/{id}', ['uses' => 'Admin\AppController@deleteApps', 'as'=>'apps_delete']);
+
+    // Service
+    Route::get('add/service', ['uses' => 'Admin\AppController@serviceForm', 'as'=>'service']);
+    Route::post('add/addservice', ['uses' => 'Admin\AppController@addService', 'as'=>'addservice']);
+
+    //Sub Service
+    Route::get('add/subservice', ['uses' => 'Admin\AppController@subserviceForm', 'as'=>'subservice']);
+    Route::post('add/addsubservice', ['uses' => 'Admin\AppController@addsubService', 'as'=>'addsubservice']);
+
+
 });
