@@ -12,17 +12,15 @@
                 Title
             </td>
             <td>
-                Category
+                Title Am
             </td>
             <td>
-                Sub Category
+                Title Ru
             </td>
             <td>
-                Date
+                Delete/Update
             </td>
-            <td>
-                Action
-            </td>
+
         </tr>
         </thead>
     </table>
@@ -32,13 +30,12 @@
         $('#apps-table').DataTable({
             processing: true,
             serverSide: true,
-            ajax: '{!! route('allApps.data') !!}',
+            ajax: '{!! route('allSubService.data') !!}',
             columns: [
                 {data: 'id', name: 'id'},
-                {data: 'title', name: 'title'},
-                {data: 'sub_categories.categories.category', name: 'category'},
-                {data: 'sub_categories.subcategory', name: 'subcategory'},
-                {data: 'created_at', name: 'created_at'},
+                {data: 'title_en', name: 'title'},
+                {data: 'title_am', name: 'title Am'},
+                {data: 'title_ru', name: 'title Ru'},
                 {data: 'action', name: 'action', orderable: false, searchable: false}
             ]
         });

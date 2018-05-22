@@ -56,7 +56,7 @@ class ResetPasswordController extends Controller
             $model->save();
 //          $model = ConfirmUsers::where('email',$email)->update(['token' => $token]);
             Mail::send('reset.emails', ['token' => $token], function ($m) use($request) {
-                $m->from('teamr22r@gmail.com', 'Poshi');
+                $m->from('teamr22r@gmail.com', 'Facto');
                 $m->to($request['email'])->subject('Email confirmation');
             });
             return redirect()->to('/your-email')->with(Session::flash('message_successfully', "Please check your email address"));

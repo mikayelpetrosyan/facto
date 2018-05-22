@@ -9,9 +9,9 @@
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <div class="panel panel-default">
-                        <div class="panel-heading">Edit Category</div>
+                        <div class="panel-heading">All Apps</div>
                         <div class="panel-body">
-                            @include('admin.edit_category')
+                            @include('admin.all_subservice')
                         </div>
                     </div>
                 </div>

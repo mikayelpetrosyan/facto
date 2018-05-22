@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Category;
-use App\SubCategory;
 use App\App;
 use App\Dlink;
 use Symfony\Component\Routing\Loader\DependencyInjection\ServiceRouterLoader;
@@ -108,58 +106,27 @@ class AppController extends Controller
 
     }
 
-    public function addApps(Request $request){
-        if($request->method("post")){
-            $subcategory = SubCategory::find($request->subcategoryid);
-            if ($request->hasFile('img')) {
-                $originalName = $request->img->getClientOriginalName();
-                $generatedName = time() . $originalName;
-                if($request->img->storeAs('public/upload', $generatedName) ){
-                    $request->img = $generatedName;
-                };
-            }
-            $app = new App([
-                'sub_category_id' => $request->subcategoryid,
-                'title' => $request->title,
-                'description' => $request->description,
-                'img' => $request->img,
-                'info' => $request->info,
-                'color' => $request->color,
-                'manufacturer' => $request->manufacturer,
-                'manufactur_country' => $request->manufactur_country,
-                'manual' => $request->manual,
-                'weight' => $request->weight,
-                'mode_application' => $request->mode_application,
-                'price' => $request->price
-            ]);
-            $app->save();
-
-            return redirect()->back()->with('status', 'App successfully added');
-
-        }
+    public function allSubService(){
+        return view('all_subservice', compact('subService'));
     }
 
-    public function allApps(){
-        return view('all_apps', compact('apps'));
-    }
-
-    public function anyData(){
-        $apps = App::with(['sub_categories.categories'])->get();
-        return Datatables::of($apps)
-            ->addColumn('action', function ($apps) {
-                return '<a href="'. route('apps_edit_form',  $apps->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>
-                        <a href="'. route('apps_delete',  $apps->id).'" class="btn btn-xs btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a>';
+    public function anyDataSub(){
+        $subService = SubService::with('services')->get();
+        return Datatables::of($subService)
+            ->addColumn('action', function ($subService) {
+                return '<a href="'. route('subservice_edit_form',  $subService->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>
+                        <a href="'. route('subservice_delete',  $subService->id).'" class="btn btn-xs btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a>';
             })->make(true);
 
     }
 
-    public function editAppsForm($id){
-        $app = App::find($id)->first()->toArray();
-        $subcategorys = SubCategory::all();
-        return view('edit_app',compact('subcategorys','app','id'));
+    public function editSubserviceForm ($id) {
+        $subservice = SubService::find($id)->first()->toArray();
+        $service = Services::all();
+        return view('edit_subservice',compact('subservice','service','id'));
     }
 
-    public function editApps(Request $request, $id){
+    public function editSubserviceedit (Request $request, $id) {
         if ($request->hasFile('img')) {
             $originalName = $request->img->getClientOriginalName();
             $generatedName = time() . $originalName;
@@ -167,28 +134,25 @@ class AppController extends Controller
                 $request->old_img = $generatedName;
             };
         }
-        App::where('id',$id)->update([
-                'sub_category_id' => $request->subcategoryid,
-                'title' => $request->title,
-                'description' => $request->description,
-                'img' => $request->old_img,
-                'info' => $request->info,
-                'color' => $request->color,
-                'manufactur_country' => $request->manufactur_country,
-                'manual' => $request->manual,
-                'weight' => $request->weight,
-                'manufacturer' => $request->manufacturer,
-                'mode_application' => $request->mode_application,
-                'price' => $request->price
+        SubService::where('id',$id)->update([
+            'services_id' => $request->services_id,
+            'title_en' => $request->title_en,
+            'title_am' => $request->title_am,
+            'title_ru' => $request->title_ru,
+            'description_en' => $request->description_en,
+            'description_am' => $request->description_am,
+            'description_ru' => $request->description_ru,
+            'img' => $request->old_img,
         ]);
-        return view('all_apps')->with('status', 'Category successfully updatet');
+        return view('all_subservice')->with('status', 'Subservice successfully updatet');
     }
 
-    public function deleteApps($id){
-        $category = App::find($id);
-        if($category->delete()){
-            return redirect()->route('allapps')->with('status', 'Category successfully deleted');
+    public function deleteSubservice ($id) {
+        $subservice = SubService::find($id);
+        if($subservice->delete()){
+            return redirect()->route('allsubservice')->with('status', 'Category successfully deleted');
         }
 
     }
+
 }

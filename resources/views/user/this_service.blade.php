@@ -27,78 +27,29 @@
                     <section class="our-services">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="single-our-service">
-                                        <figure class="img-box">
-                                            <a href=""><img width="370" height="190" src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-1.jpg"
-                                                            class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image" alt=""
-                                                            srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-1.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-1-300x154.jpg 300w"
-                                                            sizes="(max-width: 370px) 100vw, 370px"></a>
-                                        </figure>
-                                        <h4><a href="">Agricultural Engineering</a></h4>
-                                        <p>We develop and design new procedures, tools systems for agricultural products environments.</p>
+                                @foreach($subService as $sub)
+
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="single-our-service">
+                                            <figure class="img-box">
+                                                <a href=""><img width="370" height="190" src="{{ asset('/storage/upload/'.$sub->img) }}"
+                                                                class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image" alt=""
+                                                                sizes="(max-width: 370px) 100vw, 370px"></a>
+                                            </figure>
+                                            <h4><a href="">
+                                                    {{
+                                                    $sub->{'title_'.App::getlocale()}
+                                                    }}
+                                                </a></h4>
+                                            <p>
+                                                {{
+                                                   $sub->{'description_'.App::getlocale()}
+                                                 }}
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="single-our-service">
-                                        <figure class="img-box">
-                                            <a href=""><img width="370" height="190" src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-1.jpg"
-                                                            class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image" alt=""
-                                                            srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-1.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-1-300x154.jpg 300w"
-                                                            sizes="(max-width: 370px) 100vw, 370px"></a>
-                                        </figure>
-                                        <h4><a href="">Chemical Research Engineering</a></h4>
-                                        <p>Chemical Research expertise in producing and manipulating chemicals to energy properties.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="single-our-service">
-                                        <figure class="img-box">
-                                            <a href=""><img width="370" height="190" src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-1.jpg"
-                                                            class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image" alt=""
-                                                            srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-1.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-1-300x154.jpg 300w"
-                                                            sizes="(max-width: 370px) 100vw, 370px"></a>
-                                        </figure>
-                                        <h4><a href="">Material Science and Engineering</a></h4>
-                                        <p>Materials Engineering should include scientific and engineering strength relationships of materials.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="single-our-service">
-                                        <figure class="img-box">
-                                            <a href=""><img width="370" height="190" src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/4.jpg"
-                                                            class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image" alt=""
-                                                            srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/4.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/4-300x154.jpg 300w"
-                                                            sizes="(max-width: 370px) 100vw, 370px"></a>
-                                        </figure>
-                                        <h4><a href="">Mechanical Engineering</a></h4>
-                                        <p>Creating a dynamic company for the continuous exploration and develop opportunities.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="single-our-service">
-                                        <figure class="img-box">
-                                            <a href=""><img width="370" height="190" src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/5.jpg"
-                                                            class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image" alt=""
-                                                            srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/5.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/5-300x154.jpg 300w"
-                                                            sizes="(max-width: 370px) 100vw, 370px"></a>
-                                        </figure>
-                                        <h4><a href="">Petroleum and Gas</a></h4>
-                                        <p>Petroleum Engineers are concerned with the exploration, discovery and production.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="single-our-service">
-                                        <figure class="img-box">
-                                            <a href=""><img width="370" height="190" src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/6.jpg"
-                                                            class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image" alt=""
-                                                            srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/6.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/6-300x154.jpg 300w"
-                                                            sizes="(max-width: 370px) 100vw, 370px"></a>
-                                        </figure>
-                                        <h4><a href="">Power and Energy</a></h4>
-                                        <p>Ensuring high reliability and optimal performance of rotating power equipment.</p>
-                                    </div>
-                                </div>
+
+                                @endforeach
                             </div>
                         </div>
                     </section>

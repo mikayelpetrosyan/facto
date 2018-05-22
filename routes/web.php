@@ -30,9 +30,6 @@ Route::get('/contact-us', 'User\UserController@contactUs');
 Route::get('/about-us', 'User\UserController@aboutUs');
 Route::get('/services/{id}','User\UserController@thisService');
 
-Route::get('/services/Construction_engineering', 'User\UserController@Construction_engineering');
-Route::get('/services/Landscape_engineering', 'User\UserController@Landscape_engineering');
-Route::get('/services/Agricultural_engineering', 'User\UserController@Agricultural_engineering');
 Route::get('/projects', 'User\UserController@projects');
 
 //language route
@@ -48,30 +45,6 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
 
     Route::get('dashboard', ['uses' => 'Admin\AdminController@show', 'as' => 'admin_index']);
 
-                    //    Categories
-    Route::get('add/category', ['uses' => 'Admin\CategoryController@categoryForm', 'as'=>'category']);
-    Route::post('add/category', ['uses' => 'Admin\CategoryController@addCategory', 'as'=>'addcategory']);
-    Route::get('category', ['uses' => 'Admin\CategoryController@allCategory', 'as'=>'allcategory']);
-    Route::get('category/editform/{id}', ['uses' => 'Admin\CategoryController@editCategoryForm', 'as'=>'category_edit_form']);
-    Route::post('category/edit/{id}', ['uses' => 'Admin\CategoryController@editCategory', 'as'=>'category_edit']);
-    Route::get('category/delete/{id}', ['uses' => 'Admin\CategoryController@deleteCategory', 'as'=>'category_delete']);
-
-    //Sub Categories
-    Route::get('add/subcategory', ['uses' => 'Admin\CategoryController@subcategoryForm', 'as'=>'subcategory']);
-    Route::post('add/subcategory', ['uses' => 'Admin\CategoryController@addSubcategory', 'as'=>'addsubcategory']);
-    Route::get('subcategory', ['uses' => 'Admin\CategoryController@allSubcategory', 'as'=>'allsubcategory']);
-    Route::get('subcategory/editform/{id}', ['uses' => 'Admin\CategoryController@editSubcategoryForm', 'as'=>'subcategory_edit_form']);
-    Route::post('subcategory/edit/{id}', ['uses' => 'Admin\CategoryController@editSubcategory', 'as'=>'subcategory_edit']);
-    Route::get('subcategory/delete/{id}', ['uses' => 'Admin\CategoryController@deleteSubcategory', 'as'=>'subcategory_delete']);
-
-    //Apps
-    Route::get('add/apps', ['uses' => 'Admin\AppController@appsForm', 'as'=>'apps']);
-    Route::post('add/apps', ['uses' => 'Admin\AppController@addApps', 'as'=>'addapps']);
-    Route::get('apps', ['uses' => 'Admin\AppController@allApps', 'as'=>'allapps']);
-    Route::get('all/apps', ['uses' => 'Admin\AppController@anyData', 'as'=>'allApps.data']);
-    Route::get('apps/editform/{id}', ['uses' => 'Admin\AppController@editAppsForm', 'as'=>'apps_edit_form']);
-    Route::post('apps/edit/{id}', ['uses' => 'Admin\AppController@editApps', 'as'=>'apps_edit']);
-    Route::get('apps/delete/{id}', ['uses' => 'Admin\AppController@deleteApps', 'as'=>'apps_delete']);
 
     // Service
     Route::get('add/service', ['uses' => 'Admin\AppController@serviceForm', 'as'=>'service']);
@@ -85,6 +58,10 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     //Sub Service
     Route::get('add/subservice', ['uses' => 'Admin\AppController@subserviceForm', 'as'=>'subservice']);
     Route::post('add/addsubservice', ['uses' => 'Admin\AppController@addsubService', 'as'=>'addsubservice']);
-
+    Route::get('subservice', ['uses' => 'Admin\AppController@allSubService', 'as'=>'allsubservice']);
+    Route::get('all/subservice', ['uses' => 'Admin\AppController@anyDataSub', 'as'=>'allSubService.data']);
+    Route::get('subservice/editform/{id}', ['uses' => 'Admin\AppController@editSubserviceForm', 'as'=>'subservice_edit_form']);
+    Route::post('subservice/edit/{id}', ['uses' => 'Admin\AppController@editSubserviceedit', 'as'=>'subservice_edit']);
+    Route::get('subservice/delete/{id}', ['uses' => 'Admin\AppController@deleteSubservice', 'as'=>'subservice_delete']);
 
 });
