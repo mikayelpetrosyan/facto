@@ -59,15 +59,15 @@
                             <ul class="navigation clearfix">
                                 <li id="menu-item-17"
                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-17 dropdown">
-                                    <a title="Home" href="/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                    <a title="{{trans('app.Home')}}" href="/" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                        data-options="easing: easeOutQuart">{{trans('app.Home')}}</a>
                                 </li>
                                 <li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 dropdown"><a
-                                        title="About Us" href="/about-us" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        title="{{trans('app.About_us')}}" href="/about-us" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                         data-options="easing: easeOutQuart">{{trans('app.About_us')}}</a>
                                 </li>
                                 <li id="menu-item-191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-191 dropdown"><a
-                                        title="Services" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        title="{{trans('app.Services')}}" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                         data-options="easing: easeOutQuart">{{trans('app.Services')}}</a>
                                     <ul role="menu" class="submenu">
                                         @foreach (Session::get('service') as $ser)

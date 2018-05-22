@@ -70,19 +70,8 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-12" align="center">
                     <p class="copyright">© 2017 all rights reserved</p>
-                </div>
-                <div class="col-md-9">
-                    <nav class="footer-menu pull-right">
-                        <ul class="list-inline">
-                            <li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-269 active"><a title="Home" href="http://tonatheme.com/newwp/factory/" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Home</a></li>
-                            <li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a title="Services" href="http://tonatheme.com/newwp/factory/services/" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Services</a></li>
-                            <li id="menu-item-270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-270"><a title="Term &amp; Condition" href="#" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Term &amp; Condition</a></li>
-                            <li id="menu-item-271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-271"><a title="Privacy Policy" href="#" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Privacy Policy</a></li>
-                            <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a title="lkjjbnvc" href="/contact-us" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Contact Us</a></li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
