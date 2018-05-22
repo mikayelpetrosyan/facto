@@ -28,6 +28,8 @@ Route::post('loginrr', 'Admin\AdminController@authenticate');
 Route::get('logout', 'Admin\AdminController@logout');
 Route::get('/contact-us', 'User\UserController@contactUs');
 Route::get('/about-us', 'User\UserController@aboutUs');
+Route::get('/services/{id}','User\UserController@thisService');
+
 Route::get('/services/Construction_engineering', 'User\UserController@Construction_engineering');
 Route::get('/services/Landscape_engineering', 'User\UserController@Landscape_engineering');
 Route::get('/services/Agricultural_engineering', 'User\UserController@Agricultural_engineering');
@@ -74,6 +76,11 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     // Service
     Route::get('add/service', ['uses' => 'Admin\AppController@serviceForm', 'as'=>'service']);
     Route::post('add/addservice', ['uses' => 'Admin\AppController@addService', 'as'=>'addservice']);
+    Route::get('services', ['uses' => 'Admin\AppController@allServices', 'as'=>'allservice']);
+    Route::get('service/editform/{id}', ['uses' => 'Admin\AppController@editServiceForm', 'as'=>'service_edit_form']);
+    Route::post('service/edit/{id}', ['uses' => 'Admin\AppController@editService', 'as'=>'service_edit']);
+    Route::get('service/delete/{id}', ['uses' => 'Admin\AppController@deleteService', 'as'=>'service_delete']);
+
 
     //Sub Service
     Route::get('add/subservice', ['uses' => 'Admin\AppController@subserviceForm', 'as'=>'subservice']);

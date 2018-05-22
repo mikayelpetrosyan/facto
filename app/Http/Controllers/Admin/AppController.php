@@ -41,6 +41,39 @@ class AppController extends Controller
 
     }
 
+    public function allServices() {
+        $services = Services::all();
+        return view('all_services',compact('services'));
+    }
+
+    public function editServiceForm ($id) {
+        $services = Services::find($id);
+        return view('edit_service', compact('services'));
+    }
+
+    public function editService(Request $request, $id) {
+        if($request->method("post")){
+
+            $services = Services::find($id);
+            $services->name_en = $request->name_en;
+            $services->name_am = $request->name_am;
+            $services->name_ru = $request->name_ru;
+            $services->title_en = $request->title_en;
+            $services->title_am = $request->title_am;
+            $services->title_ru = $request->title_ru;
+            if($services->save()){
+                return redirect()->route('allservice')->with('status', 'Category successfully changed');
+            }
+        }
+    }
+
+    public function deleteService($id){
+        $services = Services::find($id);
+        if($services->delete()){
+            return redirect()->route('allservice')->with('status', 'Category successfully deleted');
+        }
+    }
+
     public function subserviceForm () {
         $services = Services::all();
         return view('add_subservice', compact('services'));

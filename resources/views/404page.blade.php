@@ -1,6 +1,6 @@
 @extends('layouts.user.index')
 @section('content')
 
-    @include('user.Construction_engineering')
+    @include('user.404page')
 
 @endsection

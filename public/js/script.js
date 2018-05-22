@@ -1,5 +1,5 @@
 jQuery(function($){
-    $("#description_en").summernote({
+    $("#description_en3").summernote({
         placeholder: 'Description',
         minHeight: 100,
         toolbar: [
@@ -15,7 +15,7 @@ jQuery(function($){
         ]
 
     });
-    $("#description_am").summernote({
+    $("#description_am1").summernote({
         placeholder: 'Info',
         minHeight: 100,
         toolbar: [
@@ -30,7 +30,7 @@ jQuery(function($){
             ['insert',['link', 'table', 'hr']]
         ]
     });
-    $("#description_ru").summernote({
+    $("#description_ru2").summernote({
         placeholder: 'Requirements',
         minHeight: 100,
         toolbar: [

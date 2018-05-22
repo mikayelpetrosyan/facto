@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
+use App\Services;
+use App\SubService;
 
 class UserController extends Controller
 {
@@ -17,17 +19,12 @@ class UserController extends Controller
 
         return view('about');
     }
-    public function Construction_engineering(){
-
-        return view('Construction_engineering');
-    }
-    public function Landscape_engineering(){
-
-        return view('Landscape_engineering');
-    }
-    public function Agricultural_engineering(){
-
-        return view('Agricultural_engineering');
+    public  function thisService ($id) {
+        $subService = SubService::with('services')->where('services_id', '=', $id)->get();
+         if(count($subService) == 0){
+             return view('404page');
+         }
+        return view('this_service',compact('subService'));
     }
     public function projects(){
 

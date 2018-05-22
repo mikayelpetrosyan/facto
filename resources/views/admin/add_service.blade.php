@@ -30,21 +30,22 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="title" class="col-sm-2 control-label adminlabel">Title</label>
-        <div class="col-sm-10">
-            <input type="text" name="title_en" placeholder="Title" required="required" class="form-control" id="title">
+        <label for="description_en" class="col-sm-3 control-label">Title</label>
+        <div class="col-sm-9">
+            <textarea name="title_en" class="form-control" rows="3" placeholder="Title" required="required" id="description_en"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="description_am" class="col-sm-3 control-label">Title Am</label>
+        <div class="col-sm-9">
+            <textarea name="title_am" class="form-control" rows="3" placeholder="Title Am" required="required" id="description_am"></textarea>
         </div>
     </div>
     <div class="form-group">
-        <label for="title_am" class="col-sm-2 control-label adminlabel">Title Am</label>
-        <div class="col-sm-10">
-            <input type="text" name="title_am" placeholder="Title" required="required" class="form-control" id="title_am">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="title_ru" class="col-sm-2 control-label adminlabel">Title Ru</label>
-        <div class="col-sm-10">
-            <input type="text" name="title_ru" placeholder="Title" required="required" class="form-control" id="title_ru">
+        <label for="description_ru" class="col-sm-3 control-label">Title Ru</label>
+        <div class="col-sm-9">
+            <textarea name="title_ru" class="form-control" rows="3" placeholder="Title Ru" required="required" id="description_ru" ></textarea>
         </div>
     </div>
     <div class="form-group">

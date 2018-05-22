@@ -18,9 +18,9 @@ class CreateServicesTable extends Migration
             $table->string('name_en')->unique();
             $table->string('name_am')->unique();
             $table->string('name_ru')->unique();
-            $table->string('title_en');
-            $table->string('title_am');
-            $table->string('title_ru');
+            $table->text('title_en')->nullable();
+            $table->text('title_am')->nullable();
+            $table->text('title_ru')->nullable();
             $table->timestamps();
         });
     }
