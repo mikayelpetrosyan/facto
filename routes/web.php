@@ -27,9 +27,9 @@ Route::post('/reset/password', 'Auth\ResetPasswordController@resetPassword');
 Route::post('loginrr', 'Admin\AdminController@authenticate');
 Route::get('logout', 'Admin\AdminController@logout');
 Route::get('/contact-us', 'User\UserController@contactUs');
+Route::post('/contact-us', 'User\UserController@sendContactMessage');
 Route::get('/about-us', 'User\UserController@aboutUs');
 Route::get('/services/{id}','User\UserController@thisService');
-
 Route::get('/projects', 'User\UserController@projects');
 
 //language route
