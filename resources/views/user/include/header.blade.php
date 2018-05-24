@@ -9,7 +9,7 @@
                                                                        title="Arctica"></a>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-9 col-sm-12 col-xs-12">
+           <!-- <div class="col-lg-8 col-md-9 col-sm-12 col-xs-12">
                 <div class="header-contact-info">
                     <ul>
                         <li>
@@ -34,7 +34,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </header>
