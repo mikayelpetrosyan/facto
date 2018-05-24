@@ -51,7 +51,6 @@ class AppController extends Controller
 
     public function editService(Request $request, $id) {
         if($request->method("post")){
-
             $services = Services::find($id);
             $services->name_en = $request->name_en;
             $services->name_am = $request->name_am;

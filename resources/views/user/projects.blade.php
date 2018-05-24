@@ -15,14 +15,6 @@
                     <div class="kc-col-container">
                         <section class="project-content sec-padd">
                             <div class="container">
-                                <ul class="gallery-filter post-filter">
-                                    <li class="filter active" data-filter=".filter-item"><span>All</span></li>
-                                    <li class="filter" data-filter=".material"><span>Material</span></li>
-                                    <li class="filter" data-filter=".chemical"><span>Chemical</span></li>
-                                    <li class="filter" data-filter=".mechanical"><span>Mechanical</span></li>
-                                    <li class="filter" data-filter=".power-energy"><span>Power Energy</span></li>
-                                    <li class="filter" data-filter=".agricultural"><span>Agricultural</span></li>
-                                </ul>
 
                                 <div class="row masonary-layout filter-layout" style="position: relative; height: 900px;">
                                     <div class="col-md-4 mix col-sm-6 filter-item material " style="position: absolute; left: 0px; top: 0px;">
@@ -282,28 +274,6 @@
                                 </div>
                             </div>
                         </section>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="kc-elm kc-css-37491 kc_row">
-        <div class="kc-row-container">
-            <div class="kc-wrap-columns">
-                <div class="kc-elm kc-css-357824 kc_col-sm-12 kc_column kc_col-sm-12">
-                    <div class="kc-col-container">
-                        <div class="call-out2">
-                            <div class="container">
-                                <div class="clearfix">
-                                    <div class="float_left">
-                                        <h4>Have any question or need any business consultation?</h4>
-                                    </div>
-                                    <div class="float_right">
-                                        <a href="#" class="thm-btn bg-clr2"> Request Quote</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
