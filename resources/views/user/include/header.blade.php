@@ -104,6 +104,14 @@
                                                                                                                                          data-scroll
                                                                                                                                          data-options="easing: easeOutQuart">Contact
                                     Us</a></li>
+                                <li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a
+                                                                                                                                         target="_blank"
+                                                                                                                                         id = 'lin'
+                                                                                                                                         href='facebook.com'
+                                                                                                                                         class="hvr-underline-from-left1"
+                                                                                                                                         data-scroll
+                                                                                                                                         data-options="easing: easeOutQuart">Facebook
+                                    </a></li>
                             </ul>
                             <ul class="mobile-menu clearfix">
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-17 dropdown">

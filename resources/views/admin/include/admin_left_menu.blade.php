@@ -22,7 +22,7 @@
                 </li>
                 <li class="panel panel-default" id="dropdown">
                     <a data-toggle="collapse" href="#dropdown-lvl5">
-                        <i class="fa fa-cubes" aria-hidden="true"></i> Add Subservice <span class="caret"></span>
+                        <i class="fa fa-cubes" aria-hidden="true"></i>Subservice <span class="caret"></span>
                     </a>
                     <!-- Dropdown level 1 -->
                     <div id="dropdown-lvl5" class="panel-collapse collapse">
@@ -30,6 +30,20 @@
                             <ul class="nav navbar-nav">
                                 <li><a href="{{ route('subservice') }}">Add New Subservice</a></li>
                                 <li><a href="{{ route('allsubservice') }}">All Subservice</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="panel panel-default" id="dropdown">
+                    <a data-toggle="collapse" href="#dropdown-lvl6">
+                        <i class="fa fa-cubes" aria-hidden="true"></i>Projects <span class="caret"></span>
+                    </a>
+                    <!-- Dropdown level 1 -->
+                    <div id="dropdown-lvl6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li><a href="{{ route('projects') }}">Add New Projects</a></li>
+                                <li><a href="{{ route('allsubservice') }}">All Projects</a></li>
                             </ul>
                         </div>
                     </div>

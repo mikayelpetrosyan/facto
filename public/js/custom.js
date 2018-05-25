@@ -21,4 +21,13 @@ jQuery( document ).ready(function() {
             }
         });
     });
+
+    var explode = function(){
+        jQuery('#lin').css('color', 'red');
+    };
+    var inplode = function(){
+        jQuery('#lin').css('color', 'white');
+    };
+    setInterval(explode, 500);
+    setInterval(inplode, 1000);
 });
