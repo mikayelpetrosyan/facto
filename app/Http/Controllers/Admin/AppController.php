@@ -12,6 +12,9 @@ use Symfony\Component\Routing\Loader\DependencyInjection\ServiceRouterLoader;
 use Yajra\Datatables\Datatables;
 use App\Services;
 use App\SubService;
+use App\Projects;
+use App\ProjectsImages;
+
 
 class AppController extends Controller
 {
@@ -152,6 +155,24 @@ class AppController extends Controller
             return redirect()->route('allsubservice')->with('status', 'Category successfully deleted');
         }
 
+    }
+    public function projectsForm () {
+        return view('add_projects');
+    }
+    public function addProjects (Request $request) {
+        $projects = Projects::create($request->all());
+        foreach ($request->img as $img) {
+            $originalName = $img->getClientOriginalName();
+            $generatedName = time() . $originalName;
+            if($img->storeAs('public/upload', $generatedName) ){
+                ProjectsImages::create([
+                    'projects_id' => $projects->id,
+                    'filename' => $generatedName
+                ]);
+            };
+
+        }
+        return redirect()->back()->with('status', 'App successfully added');
     }
 
 }

@@ -64,4 +64,9 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     Route::post('subservice/edit/{id}', ['uses' => 'Admin\AppController@editSubserviceedit', 'as'=>'subservice_edit']);
     Route::get('subservice/delete/{id}', ['uses' => 'Admin\AppController@deleteSubservice', 'as'=>'subservice_delete']);
 
+
+    //Projects
+    Route::get('add/projects', ['uses' => 'Admin\AppController@projectsForm', 'as'=>'projects']);
+    Route::post('add/projects', ['uses' => 'Admin\AppController@addProjects', 'as'=>'addprojects']);
+
 });
