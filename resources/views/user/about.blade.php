@@ -1,5 +1,4 @@
 
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image:url(http://tonatheme.com/newwp/factory/wp-content/themes/factory/images/background/3.jpg);">
         <div class="container text-center">

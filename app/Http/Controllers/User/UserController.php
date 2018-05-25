@@ -44,5 +44,9 @@ class UserController extends Controller
 
         return view('projects');
     }
+    public function thisProjects(){
+
+        return view('this_projects');
+    }
 
 }

@@ -31,6 +31,7 @@ Route::post('/contact-us', 'User\UserController@sendContactMessage');
 Route::get('/about-us', 'User\UserController@aboutUs');
 Route::get('/services/{id}','User\UserController@thisService');
 Route::get('/projects', 'User\UserController@projects');
+Route::get('/thisProjects', 'User\UserController@thisProjects');
 
 //language route
 Route::post('/language-chooser', 'LanguageController@changeLanguage');
