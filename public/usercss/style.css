@@ -632,6 +632,11 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     margin: 0;
     line-height: 16px;
 }
+
+#lin{
+    font-size: 19px;
+}
+
 .top-social-links {
     float: right;
     margin: 15px 0;
