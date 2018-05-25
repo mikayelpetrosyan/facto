@@ -2,14 +2,18 @@
 
 namespace App\Http\Controllers\User;
 
+
+use App\Projects;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
-use App\SubService;
 use Illuminate\Support\Facades\Mail;
 use Flash;
 use Illuminate\Support\Facades\Session;
+use App\SubService;
+use App\ProjectsImages;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
@@ -41,12 +45,15 @@ class UserController extends Controller
 //                return redirect()->to('/contact-us')->with(Session::flash('message_successfully', "Please check your email address"));
     }
     public function projects(){
-
-        return view('projects');
+    $projects = Projects::with('projectsImg')->get();
+        return view('projects',compact('projects'));
     }
-    public function thisProjects(){
-
-        return view('this_projects');
+    public function thisProjects($id){
+        $projects = ProjectsImages::with('projects')->where('projects_id',$id)->get();
+        if(count($projects) == 0){
+            return view('404page');
+        }
+        return view('this_projects',compact('projects'));
     }
 
 }

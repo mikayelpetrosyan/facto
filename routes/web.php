@@ -31,7 +31,7 @@ Route::post('/contact-us', 'User\UserController@sendContactMessage');
 Route::get('/about-us', 'User\UserController@aboutUs');
 Route::get('/services/{id}','User\UserController@thisService');
 Route::get('/projects', 'User\UserController@projects');
-Route::get('/thisProjects', 'User\UserController@thisProjects');
+Route::get('/thisProjects/{id}', 'User\UserController@thisProjects');
 
 //language route
 Route::post('/language-chooser', 'LanguageController@changeLanguage');
@@ -69,5 +69,11 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     //Projects
     Route::get('add/projects', ['uses' => 'Admin\AppController@projectsForm', 'as'=>'projects']);
     Route::post('add/projects', ['uses' => 'Admin\AppController@addProjects', 'as'=>'addprojects']);
+    Route::get('projects', ['uses' => 'Admin\AppController@allProjects', 'as'=>'allprojects']);
+    Route::get('projects/editform/{id}', ['uses' => 'Admin\AppController@editProjectsForm', 'as'=>'projects_edit_form']);
+    Route::post('project/edit/{id}', ['uses' => 'Admin\AppController@editProject', 'as'=>'project_edit']);
+    Route::get('projects/delete/{id}', ['uses' => 'Admin\AppController@deleteProjects', 'as'=>'projects_delete']);
+
+
 
 });

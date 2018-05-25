@@ -43,7 +43,7 @@
                         <div class="panel-body">
                             <ul class="nav navbar-nav">
                                 <li><a href="{{ route('projects') }}">Add New Projects</a></li>
-                                <li><a href="{{ route('allsubservice') }}">All Projects</a></li>
+                                <li><a href="{{ route('allprojects') }}">All Projects</a></li>
                             </ul>
                         </div>
                     </div>

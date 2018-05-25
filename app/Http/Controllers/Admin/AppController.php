@@ -18,10 +18,6 @@ use App\ProjectsImages;
 
 class AppController extends Controller
 {
-    public function appsForm(){
-        $subcategories = SubCategory::all();
-        return view('add_app', compact('subcategories'));
-    }
 
     public function serviceForm () {
         return view('add_service');
@@ -159,6 +155,7 @@ class AppController extends Controller
     public function projectsForm () {
         return view('add_projects');
     }
+
     public function addProjects (Request $request) {
         $projects = Projects::create($request->all());
         foreach ($request->img as $img) {
@@ -173,6 +170,38 @@ class AppController extends Controller
 
         }
         return redirect()->back()->with('status', 'App successfully added');
+    }
+
+    public function allProjects () {
+        $projects = Projects::all();
+        return view('all_projects',compact('projects'));
+    }
+
+    public function editProjectsForm ($id) {
+        $projects = Projects::find($id);
+        return view('edit_projects', compact('projects'));
+    }
+
+    public function editProject (Request $request, $id) {
+        if($request->method("post")){
+            $projects = Projects::find($id);
+            $projects->name_en = $request->name_en;
+            $projects->name_am = $request->name_am;
+            $projects->name_ru = $request->name_ru;
+            $projects->description_en = $request->description_en;
+            $projects->description_am = $request->description_am;
+            $projects->description_ru = $request->description_ru;
+            if($projects->save()){
+                return redirect()->route('allprojects')->with('status', 'Category successfully changed');
+            }
+        }
+    }
+
+    public function deleteProjects ($id) {
+        $projects = Projects::find($id);
+        if($projects->delete()){
+            return redirect()->route('allprojects')->with('status', 'Category successfully deleted');
+        }
     }
 
 }
