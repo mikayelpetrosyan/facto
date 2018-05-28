@@ -5388,6 +5388,10 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     padding-top: 27px;
     margin: 0;
 }
+.project_img{
+    width: 960px !important;
+    height: 600px !important;
+}
 .single-projects .pagination .button a {
     color: #222;
     font-size: 18px;
