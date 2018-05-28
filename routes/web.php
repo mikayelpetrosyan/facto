@@ -15,11 +15,10 @@
 //    return view('welcome');
 //});
 
-Route::get('/', 'HomeController@Welcome');
+Route::get('/', 'User\UserController@Welcome');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
 Route::get('adminlogin', 'Admin\AdminController@showLoginForm');
 Route::get('/your-email', 'Auth\ResetPasswordController@email');
 Route::post('/send-email', 'Auth\ResetPasswordController@SendEmail');

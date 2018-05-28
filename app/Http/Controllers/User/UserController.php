@@ -13,10 +13,16 @@ use Flash;
 use Illuminate\Support\Facades\Session;
 use App\SubService;
 use App\ProjectsImages;
+use App\Partners;
 use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
+
+    public function Welcome(){
+        $partners = Partners::all();
+        return view('welcome',compact('partners'));
+    }
     public function contactUs(){
         return view('contact');
     }
