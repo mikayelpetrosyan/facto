@@ -23,10 +23,10 @@ jQuery( document ).ready(function() {
     });
 
     var explode = function(){
-        jQuery('#lin').css('color', 'red');
+        jQuery('#lin').css('color', '#fdc716');
     };
     var inplode = function(){
-        jQuery('#lin').css('color', 'white');
+        jQuery('#lin').css('color', '#ffff');
     };
     setInterval(explode, 500);
     setInterval(inplode, 1000);

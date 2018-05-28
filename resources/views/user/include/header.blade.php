@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
                 <div class="logo">
-                    <a href="http://tonatheme.com/newwp/factory/"><img src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/10/facto-black.png" alt="Arctica"
+                    <a href="http://tonatheme.com/newwp/factory/"><img src="{{ asset('/images/greenlad.png') }}" alt="Arctica"
                                                                        title="Arctica"></a>
                 </div>
             </div>
@@ -45,7 +45,7 @@
     <div class="container">
         <div class="mainmenu-bg">
             <div class="row">
-                <div class="col-md-9 col-sm-12 col-xs-12">
+                <div class="col-md-10 col-sm-12 col-xs-12">
                     <!--Start mainmenu-->
                     <nav class="main-menu">
                         <div class="navbar-header">
@@ -230,20 +230,23 @@
                 </div>
             </div>
 
-            <div class="right-column">
-                <div class="right-area">
-                    <div class="link_btn float_right">
-                        <select id="languageSwitcher">
-                            <option value="en" {{App::getlocale() == 'en' ? 'selected' : ''}}>Eng</option>
-                            <option value="am" {{App::getlocale() == 'am' ? 'selected' : ''}}>Arm</option>
-                            <option value="ru" {{App::getlocale() == 'ru' ? 'selected' : ''}}>Ru</option>
-                        </select>
-                        <input type="hidden" id ='input_token' name="_token" value="{{ csrf_token() }}">
+
+                <div class="right-column">
+
+                    <div class="right-area">
+                        <div class="link_btn float_right">
+                            <select id="languageSwitcher">
+                                <option value="en" {{App::getlocale() == 'en' ? 'selected' : ''}}>Eng</option>
+                                <option value="am" {{App::getlocale() == 'am' ? 'selected' : ''}}>Arm</option>
+                                <option value="ru" {{App::getlocale() == 'ru' ? 'selected' : ''}}>Ru</option>
+                            </select>
+                            <input type="hidden" id ='input_token' name="_token" value="{{ csrf_token() }}">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
 </section>
 <!--End mainmenu area-->
 
@@ -253,7 +256,7 @@
         {{--<div class="row">--}}
             {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
                 {{--<div class="logo">--}}
-                    {{--<a href="http://tonatheme.com/newwp/factory/"><img src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/10/facto-black.png" alt="Arctica" title="Arctica"></a>--}}
+                    {{--<a href="http://tonatheme.com/newwp/factory/"><img src="{{ asset('/images/greenlad.png') }}" alt="Arctica" title="Arctica"></a>--}}
                 {{--</div>--}}
             {{--</div>--}}
             {{--<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">--}}

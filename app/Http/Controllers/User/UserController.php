@@ -51,7 +51,7 @@ class UserController extends Controller
 //                return redirect()->to('/contact-us')->with(Session::flash('message_successfully', "Please check your email address"));
     }
     public function projects(){
-    $projects = Projects::with('projectsImg')->get();
+    $projects = Projects::with('projectsImg')->paginate(9);
         return view('projects',compact('projects'));
     }
     public function thisProjects($id){

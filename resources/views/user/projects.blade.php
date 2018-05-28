@@ -1,7 +1,7 @@
 <!--Start breadcrumb area-->
 <section class="breadcrumb-area" style="background-image:url(http://tonatheme.com/newwp/factory/wp-content/themes/factory/images/background/3.jpg);">
     <div class="container text-center">
-        <h1> Projects</h1>
+        <h1> {{trans('app.Projects')}}</h1>
     </div>
 </section>
 <!--End breadcrumb area-->
@@ -13,7 +13,7 @@
             <div class="kc-elm kc-css-670391 kc_col-sm-12 kc_column kc_col-sm-12">
                 <div class="kc-col-container">
                     <section class="project-content sec-padd">
-                        <div class="container">
+                        <div class="container" align="center">
 
                             <div class="row masonary-layout filter-layout" style="position: relative; height: 900px;">
                                 @foreach($projects as $project)
@@ -49,6 +49,7 @@
                                     </div>
                                 @endforeach
                             </div>
+                            {{ $projects->links() }}
                         </div>
                     </section>
                 </div>

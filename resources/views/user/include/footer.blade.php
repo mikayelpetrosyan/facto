@@ -1,9 +1,9 @@
 <footer>
-    <div class="footer-main sec-padd2">
+<!--    <div class="footer-main sec-padd2">
         <div class="container">
             <div class="row">
                 <div id="bunch_about_us-2" class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column footer-col widget_bunch_about_us">
-                    <!--Footer Column-->
+                    &lt;!&ndash;Footer Column&ndash;&gt;
                     <div class="logo-part">
                         <a href="http://tonatheme.com/newwp/factory/" class="footer-logo text-uppercase">
                             <img src="http://tonatheme.com/newwp/factory/wp-content/themes/factory/images/logo/logo2.png" alt="logo">
@@ -29,7 +29,7 @@
                     <div class="post-column">
                         <h3 class="footer-title">Recent News</h3>            <div class="post-list">
 
-                            <!-- Title -->
+                            &lt;!&ndash; Title &ndash;&gt;
                             <div class="post">
                                 <div class="post-thumb"><a href="http://tonatheme.com/newwp/factory/their-house-is-a-museum-where-people-come-to-see-great/"><img width="90" height="43" src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/b1.jpg" class="attachment-arctica_90x75 size-arctica_90x75 wp-post-image" alt="" srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/b1.jpg 740w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/b1-300x142.jpg 300w" sizes="(max-width: 90px) 100vw, 90px"></a></div>
                                 <h5><a href="http://tonatheme.com/newwp/factory/their-house-is-a-museum-where-people-come-to-see-great/">Their House Is A Museum Where...</a></h5>
@@ -65,7 +65,7 @@
 
                 </div>                </div>
         </div>
-    </div>
+    </div>-->
 
     <div class="footer-bottom">
         <div class="container">
