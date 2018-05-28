@@ -48,6 +48,20 @@
                         </div>
                     </div>
                 </li>
+                <li class="panel panel-default" id="dropdown">
+                    <a data-toggle="collapse" href="#dropdown-lvl7">
+                        <i class="fa fa-cubes" aria-hidden="true"></i>Partners <span class="caret"></span>
+                    </a>
+                    <!-- Dropdown level 1 -->
+                    <div id="dropdown-lvl7" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li><a href="{{ route('partners') }}">Add New Partners</a></li>
+                                <li><a href="{{ route('allpartners') }}">All Partners</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
 
             </ul>
         </div><!-- /.navbar-collapse -->

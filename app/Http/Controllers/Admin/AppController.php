@@ -14,6 +14,7 @@ use App\Services;
 use App\SubService;
 use App\Projects;
 use App\ProjectsImages;
+use App\Partners;
 
 
 class AppController extends Controller
@@ -201,6 +202,45 @@ class AppController extends Controller
         $projects = Projects::find($id);
         if($projects->delete()){
             return redirect()->route('allprojects')->with('status', 'Category successfully deleted');
+        }
+    }
+
+    public function partnersForm () {
+        return view('add_partners');
+    }
+
+    public function addPartners (Request $request) {
+        if($request->method("post")){
+            if ($request->hasFile('img')) {
+                $originalName = $request->img->getClientOriginalName();
+                $generatedName = time() . $originalName;
+                if($request->img->storeAs('public/upload', $generatedName) ){
+                    $request->img = $generatedName;
+                };
+            }
+            $partners = new Partners([
+                'name_en' => $request->name_en,
+                'name_am' => $request->name_am,
+                'name_ru' => $request->name_ru,
+                'img' => $request->img,
+
+            ]);
+            $partners->save();
+
+            return redirect()->back()->with('status', 'App successfully added');
+
+        }
+    }
+
+    public function allPartners(){
+        $partners = Partners::all();
+        return view('all_partners',compact('partners'));
+    }
+
+    public function deletePartners($id){
+        $partners = Partners::find($id);
+        if($partners->delete()){
+            return redirect()->route('allpartners')->with('status', 'Category successfully deleted');
         }
     }
 

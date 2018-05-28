@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/', 'HomeController@Welcome');
 
 Auth::routes();
 
@@ -74,6 +76,10 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     Route::post('project/edit/{id}', ['uses' => 'Admin\AppController@editProject', 'as'=>'project_edit']);
     Route::get('projects/delete/{id}', ['uses' => 'Admin\AppController@deleteProjects', 'as'=>'projects_delete']);
 
-
+    //Partners
+    Route::get('add/partners', ['uses' => 'Admin\AppController@partnersForm', 'as'=>'partners']);
+    Route::post('add/partners', ['uses' => 'Admin\AppController@addPartners', 'as'=>'addpartners']);
+    Route::get('partners', ['uses' => 'Admin\AppController@allPartners', 'as'=>'allpartners']);
+    Route::get('partners/delete/{id}', ['uses' => 'Admin\AppController@deletePartners', 'as'=>'partners_delete']);
 
 });
