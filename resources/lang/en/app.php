@@ -2,8 +2,9 @@
 return[
     'Home'=>'Home',
     'About_us'=>'About us',
-    'Login'=>'Login',
-    'Register'=>'Register',
+    'Shops'=>'Shops',
+    'Projects'=>'Projects',
+    'Contact_us'=>'Contact Us',
     'About_us_text'=>'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem',
 'Why_choose_us'=>'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet cumque cupiditate eos est ex facilis, nam, obcaecati odit pariatur, placeat quis quod sit tempora vitae voluptate voluptates. Repellendus.lorem',
 'Meet_our_team' => 'Meet our team',

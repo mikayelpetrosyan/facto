@@ -73,7 +73,7 @@
                                         @foreach (Session::get('service') as $ser)
 
                                             <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236">
-                                                <a title="Blog Default" href="/services/{{$ser->id}}">
+                                                <a  href="/services/{{$ser->id}}">
                                                     {{
                                                         $ser->{"name_".App::getlocale()}
                                                     }}
@@ -83,27 +83,21 @@
                                     </ul>
                                 </li>
                                 <li id="menu-item-200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-200 dropdown"><a
-                                        title="Projects" href="/projects" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
-                                        data-options="easing: easeOutQuart">Projects</a>
+                                        title="{{trans('app.Projects')}}" href="/projects" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        data-options="easing: easeOutQuart">{{trans('app.Projects')}}</a>
                                 </li>
-                                <li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-235 dropdown"><a
-                                        title="Latest News" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
-                                        data-options="easing: easeOutQuart">Latest News</a>
-                                    <ul role="menu" class="submenu">
-                                        <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236"><a title="Blog Default"
-                                                                                                                                                href="http://tonatheme.com/newwp/factory/2017/">Blog
-                                            Default</a></li>
-                                        <li id="menu-item-237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-237"><a title="Blog Single Post"
-                                                                                                                                                href="http://tonatheme.com/newwp/factory/take-a-step-that-is-ne-weve-a-loveable-space-that-needs/">Blog
-                                            Single Post</a></li>
-                                    </ul>
+                                <li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-235 dropdown">
+                                    <a
+                                            title="{{trans('app.Shops')}}" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                        data-options="easing: easeOutQuart">
+                                        {{trans('app.Shops')}}
+                                        </a>
                                 </li>
-                                <li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a title="Contact Us"
+                                <li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a title="{{trans('app.Contact_us')}}"
                                                                                                                                          href="/contact-us"
                                                                                                                                          class="hvr-underline-from-left1"
                                                                                                                                          data-scroll
-                                                                                                                                         data-options="easing: easeOutQuart">Contact
-                                    Us</a></li>
+                                                                                                                                         data-options="easing: easeOutQuart">{{trans('app.Contact_us')}}</a></li>
                                 <li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a
                                                                                                                                          target="_blank"
                                                                                                                                          id = 'lin'
