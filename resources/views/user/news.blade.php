@@ -26,7 +26,7 @@
                                          $news[0]->{'title_'.App::getlocale()}
                                      }}
                                      src="{{ asset('/storage/upload/'. $news[0]->img) }}"
-                                     class="attachment-arctica_740x350 size-arctica_740x350 wp-post-image" alt="" /> >
+                                     class="attachment-arctica_740x350 size-arctica_740x350 wp-post-image" alt="" /> 
 
                             </div>
                         </div>
