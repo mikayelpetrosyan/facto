@@ -1,15 +1,15 @@
 
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/favicon.png"
+    <link rel="shortcut icon" href="{{ asset('/images/greenlad.png') }}"
           type="image/x-icon">
-    <link rel="icon" href="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/favicon.png"
+    <link rel="icon" href="{{ asset('/images/greenlad.png') }}"
           type="image/x-icon">
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Facto – Facto WordPress Theme</title>
+    <title>GREEN LAD</title>
 
     <link rel="stylesheet" id="contact-form-7-css" href="{{ asset('usercss/styles.css') }}" type="text/css" media="all">
     <link rel="stylesheet" id="rs-plugin-settings-css" href="{{ asset('usercss/settings1.css') }}" type="text/css"

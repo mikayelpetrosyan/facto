@@ -88,7 +88,7 @@
                                 </li>
                                 <li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-235 dropdown">
                                     <a
-                                            title="{{trans('app.Shops')}}" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                            title="{{trans('app.Shops')}}" href="/shops" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
                                         data-options="easing: easeOutQuart">
                                         {{trans('app.Shops')}}
                                         </a>

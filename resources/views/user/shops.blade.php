@@ -1,7 +1,7 @@
 <!--Start breadcrumb area-->
 <section class="breadcrumb-area" style="background-image:url(http://tonatheme.com/newwp/factory/wp-content/themes/factory/images/background/3.jpg);">
     <div class="container text-center">
-        <h1> {{trans('app.Projects')}}</h1>
+        <h1> {{trans('app.Shops')}}</h1>
     </div>
 </section>
 <!--End breadcrumb area-->
@@ -16,11 +16,11 @@
                         <div class="container" align="center">
 
                             <div class="row masonary-layout filter-layout" style="position: relative; height: 900px;">
-                                @foreach($projects as $project)
+                                @foreach($shops as $shop)
                                     <div class="col-md-4 mix col-sm-6 filter-item material " style="position: absolute; left: 0px; top: 0px;">
                                         <div class="single-project-item">
                                             <div class="img-box">
-                                                <img width="370" height="270" src="{{ asset('/storage/upload/'.$project->projectsImg[0]->filename) }}"
+                                                <img width="370" height="270" src="{{ asset('/storage/upload/'.$shop->shopsImg[0]->filename) }}"
                                                      class="attachment-arctica_370x270 size-arctica_370x270 wp-post-image" alt=""
                                                      sizes="(max-width: 370px) 100vw, 370px">
                                                 <div class="overlay-bg">
@@ -28,9 +28,9 @@
                                                         <div class="top-box">
                                                             <div class="title">
                                                                 <h3>
-                                                                    <a href="/project/{{$project->id}}">
+                                                                    <a href="/shop/{{$shop->id}}">
                                                                         {{
-                                                                            $project->{'name_'.App::getlocale()}
+                                                                            $shop->{'name_'.App::getlocale()}
                                                                         }}
                                                                     </a>
                                                                 </h3>
@@ -38,7 +38,7 @@
                                                         </div>
                                                         <div class="bottom-box">
                                                             <ul>
-                                                                <li><a href="/project/{{$project->id}}"><i class="fa fa-link"></i></a>
+                                                                <li><a href="/shop/{{$shop->id}}"><i class="fa fa-link"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -49,7 +49,7 @@
                                     </div>
                                 @endforeach
                             </div>
-                            {{ $projects->links() }}
+                            {{ $shops->links() }}
                         </div>
                     </section>
                 </div>

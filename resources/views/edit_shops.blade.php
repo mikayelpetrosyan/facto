@@ -1,4 +1,5 @@
 @extends('layouts.index')
+
 @section('dashboard')
     <main>
         <div class="container">
@@ -8,9 +9,9 @@
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <div class="panel panel-default">
-                        <div class="panel-heading">All Services</div>
+                        <div class="panel-heading">Edit Projects</div>
                         <div class="panel-body">
-                            @include('admin.all_services')
+                            @include('admin.edit_shops')
                         </div>
                     </div>
                 </div>

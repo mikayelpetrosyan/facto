@@ -22,7 +22,7 @@
                 </li>
                 <li class="panel panel-default" id="dropdown">
                     <a data-toggle="collapse" href="#dropdown-lvl5">
-                        <i class="fa fa-cubes" aria-hidden="true"></i>Subservice <span class="caret"></span>
+                        <i class="fa fa-cubes" aria-hidden="true"></i> Subservice <span class="caret"></span>
                     </a>
                     <!-- Dropdown level 1 -->
                     <div id="dropdown-lvl5" class="panel-collapse collapse">
@@ -35,8 +35,22 @@
                     </div>
                 </li>
                 <li class="panel panel-default" id="dropdown">
+                    <a data-toggle="collapse" href="#dropdown-lvl8">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop<span class="caret"></span>
+                    </a>
+                    <!-- Dropdown level 1 -->
+                    <div id="dropdown-lvl8" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li><a href="{{ route('shop') }}">Add New Shop</a></li>
+                                <li><a href="{{ route('allshops') }}">All Shop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="panel panel-default" id="dropdown">
                     <a data-toggle="collapse" href="#dropdown-lvl6">
-                        <i class="fa fa-cubes" aria-hidden="true"></i>Projects <span class="caret"></span>
+                        <i class="fa fa-cubes" aria-hidden="true"></i> Projects <span class="caret"></span>
                     </a>
                     <!-- Dropdown level 1 -->
                     <div id="dropdown-lvl6" class="panel-collapse collapse">
@@ -50,7 +64,7 @@
                 </li>
                 <li class="panel panel-default" id="dropdown">
                     <a data-toggle="collapse" href="#dropdown-lvl7">
-                        <i class="fa fa-cubes" aria-hidden="true"></i>Partners <span class="caret"></span>
+                        <i class="fa fa-cubes" aria-hidden="true"></i> Partners <span class="caret"></span>
                     </a>
                     <!-- Dropdown level 1 -->
                     <div id="dropdown-lvl7" class="panel-collapse collapse">

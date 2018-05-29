@@ -25,7 +25,7 @@
                 <div class="kc-col-container">
 
                     <section class="our-services">
-                        <div class="container">
+                        <div class="container" align="center">
                             <div class="row">
                                 @foreach($subService as $sub)
 
@@ -51,6 +51,7 @@
 
                                 @endforeach
                             </div>
+                            {{ $subService->links() }}
                         </div>
                     </section>
 

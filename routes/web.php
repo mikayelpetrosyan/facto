@@ -32,7 +32,9 @@ Route::post('/contact-us', 'User\UserController@sendContactMessage');
 Route::get('/about-us', 'User\UserController@aboutUs');
 Route::get('/services/{id}','User\UserController@thisService');
 Route::get('/projects', 'User\UserController@projects');
-Route::get('/thisProjects/{id}', 'User\UserController@thisProjects');
+Route::get('/project/{id}', 'User\UserController@thisProjects');
+Route::get('/shops', 'User\UserController@shops');
+Route::get('/shop/{id}', 'User\UserController@shop');
 
 //language route
 Route::post('/language-chooser', 'LanguageController@changeLanguage');
@@ -65,6 +67,14 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     Route::get('subservice/editform/{id}', ['uses' => 'Admin\AppController@editSubserviceForm', 'as'=>'subservice_edit_form']);
     Route::post('subservice/edit/{id}', ['uses' => 'Admin\AppController@editSubserviceedit', 'as'=>'subservice_edit']);
     Route::get('subservice/delete/{id}', ['uses' => 'Admin\AppController@deleteSubservice', 'as'=>'subservice_delete']);
+
+    //Shop
+    Route::get('add/shop', ['uses' => 'Admin\AppController@shopForm', 'as'=>'shop']);
+    Route::post('add/addshop', ['uses' => 'Admin\AppController@addShop', 'as'=>'addshop']);
+    Route::get('shops', ['uses' => 'Admin\AppController@allShop', 'as'=>'allshops']);
+    Route::get('shop/editform/{id}', ['uses' => 'Admin\AppController@editShopForm', 'as'=>'shop_edit_form']);
+    Route::post('shop/edit/{id}', ['uses' => 'Admin\AppController@editShop', 'as'=>'shop_edit']);
+    Route::get('shops/delete/{id}', ['uses' => 'Admin\AppController@deleteShops', 'as'=>'shop_delete']);
 
 
     //Projects

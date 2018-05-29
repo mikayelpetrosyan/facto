@@ -761,7 +761,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     position: absolute;
     left: 0px;
     top: 100%;
-    background: #333;
+    background: green;
     width: 230px;
     border-top: 2px solid #fff;
     padding: 12px 20px;
@@ -6842,6 +6842,7 @@ ul.gallery-filter li span {
 .testimonial .testimonial-item .author p {
     color: #000;
 }
+
 /**/
 .product-slider { padding: 45px; }
 
@@ -6853,7 +6854,7 @@ ul.gallery-filter li span {
 
 .product-slider #thumbcarousel .item .thumb { border: 4px solid #cecece; width: 20%; margin: 0 2%; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 98px; }
 
-.product-slider #thumbcarousel .item .thumb:hover { border-color: #1089c0; }
+.product-slider #thumbcarousel .item .thumb:hover { border-color: #ffbd0a; }
 
 .product-slider .item img { width: 100%; height: auto; }
 

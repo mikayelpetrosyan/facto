@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers\User;
 
-
-use App\Projects;
+use App\ShopsImages;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
@@ -15,6 +14,9 @@ use App\SubService;
 use App\ProjectsImages;
 use App\Partners;
 use Illuminate\Support\Facades\DB;
+use App\Projects;
+use App\Shops;
+
 
 class UserController extends Controller
 {
@@ -31,7 +33,7 @@ class UserController extends Controller
         return view('about');
     }
     public  function thisService ($id) {
-        $subService = SubService::with('services')->where('services_id', '=', $id)->get();
+        $subService = SubService::with('services')->where('services_id', '=', $id)->paginate(9);;
          if(count($subService) == 0){
              return view('404page');
          }
@@ -50,16 +52,31 @@ class UserController extends Controller
 
 //                return redirect()->to('/contact-us')->with(Session::flash('message_successfully', "Please check your email address"));
     }
+
     public function projects(){
     $projects = Projects::with('projectsImg')->paginate(9);
         return view('projects',compact('projects'));
     }
+
     public function thisProjects($id){
         $projects = ProjectsImages::with('projects')->where('projects_id',$id)->get();
         if(count($projects) == 0){
             return view('404page');
         }
         return view('this_projects',compact('projects'));
+    }
+
+    public function shops () {
+        $shops = Shops::with('shopsImg')->paginate(9);
+        return view('shops',compact('shops'));
+    }
+
+    public function shop ($id) {
+        $shops = ShopsImages::with('shops')->where('shops_id',$id)->get();
+        if(count($shops) == 0){
+            return view('404page');
+        }
+        return view('shop',compact('shops'));
     }
 
 }
