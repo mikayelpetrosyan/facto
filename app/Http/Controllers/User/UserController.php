@@ -16,6 +16,7 @@ use App\Partners;
 use Illuminate\Support\Facades\DB;
 use App\Projects;
 use App\Shops;
+use App\News;
 
 
 class UserController extends Controller
@@ -23,7 +24,9 @@ class UserController extends Controller
 
     public function Welcome(){
         $partners = Partners::all();
-        return view('welcome',compact('partners'));
+        $projects = Projects::with('projectsImg')->orderBy('id', 'DESC')->limit(4)->get();
+        $news = News::orderBy('id', 'DESC')->limit(4)->get();
+        return view('welcome',compact('partners','projects','news'));
     }
     public function contactUs(){
         return view('contact');
@@ -54,7 +57,7 @@ class UserController extends Controller
     }
 
     public function projects(){
-    $projects = Projects::with('projectsImg')->paginate(9);
+        $projects = Projects::with('projectsImg')->paginate(9);
         return view('projects',compact('projects'));
     }
 
@@ -77,6 +80,11 @@ class UserController extends Controller
             return view('404page');
         }
         return view('shop',compact('shops'));
+    }
+
+    public function news ($id) {
+        $news = News::where('id',$id)->get();
+        return view('news',compact('news'));
     }
 
 }

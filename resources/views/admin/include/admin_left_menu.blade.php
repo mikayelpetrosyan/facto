@@ -76,6 +76,20 @@
                         </div>
                     </div>
                 </li>
+                <li class="panel panel-default" id="dropdown">
+                    <a data-toggle="collapse" href="#dropdown-lvl0">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i> Latest News <span class="caret"></span>
+                    </a>
+                    <!-- Dropdown level 1 -->
+                    <div id="dropdown-lvl0" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li><a href="{{ route('news') }}">Add New News</a></li>
+                                <li><a href="{{ route('allnews') }}">All News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
 
             </ul>
         </div><!-- /.navbar-collapse -->

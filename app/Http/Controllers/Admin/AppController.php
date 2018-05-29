@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Admin;
 
-
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -18,6 +17,7 @@ use App\ProjectsImages;
 use App\Partners;
 use App\Shops;
 use App\ShopsImages;
+use App\News;
 
 
 class AppController extends Controller
@@ -328,6 +328,48 @@ class AppController extends Controller
         if ($shops->delete()) {
             return redirect()->route('allshops')->with('status', 'Category successfully deleted');
         }
-
     }
+
+    public function newsForm () {
+        return view('add_news');
+    }
+
+    public function addNews (Request $request) {
+        if ($request->method("post")) {
+            if ($request->hasFile('img')) {
+                $originalName = $request->img->getClientOriginalName();
+                $generatedName = time() . $originalName;
+                if ($request->img->storeAs('public/upload', $generatedName)) {
+                    $request->img = $generatedName;
+                };
+            }
+            $news = new News([
+                'title_en' => $request->title_en,
+                'title_am' => $request->title_am,
+                'title_ru' => $request->title_ru,
+                'description_en' => $request->description_en,
+                'description_am' => $request->description_am,
+                'description_ru' => $request->description_ru,
+                'img' => $request->img,
+
+            ]);
+            $news->save();
+
+            return redirect()->back()->with('status', 'App successfully added');
+
+        }
+    }
+
+    public function allNews () {
+        $news = News::all();
+        return view('all_news', compact('news'));
+    }
+
+    public function deleteNews ($id) {
+        $news = News::find($id);
+        if ($news->delete()) {
+            return redirect()->route('allnews')->with('status', 'Category successfully deleted');
+        }
+    }
+
 }

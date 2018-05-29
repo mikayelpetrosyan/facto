@@ -35,6 +35,7 @@ Route::get('/projects', 'User\UserController@projects');
 Route::get('/project/{id}', 'User\UserController@thisProjects');
 Route::get('/shops', 'User\UserController@shops');
 Route::get('/shop/{id}', 'User\UserController@shop');
+Route::get('/news/{id}', 'User\UserController@news');
 
 //language route
 Route::post('/language-chooser', 'LanguageController@changeLanguage');
@@ -90,5 +91,11 @@ Route::group(['prefix' => 'admin/', 'middleware' => ['admin']], function () {
     Route::post('add/partners', ['uses' => 'Admin\AppController@addPartners', 'as'=>'addpartners']);
     Route::get('partners', ['uses' => 'Admin\AppController@allPartners', 'as'=>'allpartners']);
     Route::get('partners/delete/{id}', ['uses' => 'Admin\AppController@deletePartners', 'as'=>'partners_delete']);
+
+    // News
+    Route::get('add/news', ['uses' => 'Admin\AppController@newsForm', 'as'=>'news']);
+    Route::post('add/news', ['uses' => 'Admin\AppController@addNews', 'as'=>'addnews']);
+    Route::get('news', ['uses' => 'Admin\AppController@allNews', 'as'=>'allnews']);
+    Route::get('news/delete/{id}', ['uses' => 'Admin\AppController@deleteNews', 'as'=>'news_delete']);
 
 });

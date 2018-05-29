@@ -283,127 +283,6 @@
         </div>
     </div>
 </section>
-<!--<section class="kc-elm kc-css-569006 kc_row">-->
-    <!--<div class="kc-row-container  kc-container">-->
-        <!--<div class="kc-wrap-columns">-->
-            <!--<div class="kc-elm kc-css-198303 kc_col-sm-12 kc_column kc_col-sm-12">-->
-                <!--<div class="kc-col-container">-->
-
-                    <!--<section class="our-services">-->
-                        <!--<div class="container">-->
-                            <!--<div class="row">-->
-                                <!--<div class="col-md-4 col-sm-5 col-xs-12">-->
-                                    <!--<div class="section-title">-->
-                                        <!--<h2>Our Services</h2>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-8 col-sm-7 col-xs-12 font-20">-->
-                                    <!--<p>We have built an enviable reputation in consumer goods, heavy industry,-->
-                                        <!--high-tech, manufacturing, medical, recreational vehicle, and-->
-                                        <!--transportation sectors.</p><br>-->
-                                <!--</div>-->
-                            <!--</div>-->
-
-                            <!--<div class="row">-->
-                                <!--<div class="col-md-4 col-sm-6">-->
-                                    <!--<div class="single-our-service">-->
-                                        <!--<figure class="img-box">-->
-                                            <!--<a href=""><img width="370" height="190"-->
-                                                            <!--src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-1.jpg"-->
-                                                            <!--class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image"-->
-                                                            <!--alt=""-->
-                                                            <!--srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-1.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-1-300x154.jpg 300w"-->
-                                                            <!--sizes="(max-width: 370px) 100vw, 370px"/></a>-->
-                                        <!--</figure>-->
-                                        <!--<h4><a href="">Agricultural Engineering</a></h4>-->
-                                        <!--<p>We develop and design new procedures, tools systems for agricultural products-->
-                                            <!--environments.</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-4 col-sm-6">-->
-                                    <!--<div class="single-our-service">-->
-                                        <!--<figure class="img-box">-->
-                                            <!--<a href=""><img width="370" height="190"-->
-                                                            <!--src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-1.jpg"-->
-                                                            <!--class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image"-->
-                                                            <!--alt=""-->
-                                                            <!--srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-1.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-1-300x154.jpg 300w"-->
-                                                            <!--sizes="(max-width: 370px) 100vw, 370px"/></a>-->
-                                        <!--</figure>-->
-                                        <!--<h4><a href="">Chemical Research Engineering</a></h4>-->
-                                        <!--<p>Chemical Research expertise in producing and manipulating chemicals to energy-->
-                                            <!--properties.</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-4 col-sm-6">-->
-                                    <!--<div class="single-our-service">-->
-                                        <!--<figure class="img-box">-->
-                                            <!--<a href=""><img width="370" height="190"-->
-                                                            <!--src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-1.jpg"-->
-                                                            <!--class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image"-->
-                                                            <!--alt=""-->
-                                                            <!--srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-1.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-1-300x154.jpg 300w"-->
-                                                            <!--sizes="(max-width: 370px) 100vw, 370px"/></a>-->
-                                        <!--</figure>-->
-                                        <!--<h4><a href="">Material Science and Engineering</a></h4>-->
-                                        <!--<p>Materials Engineering should include scientific and engineering strength-->
-                                            <!--relationships of materials.</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-4 col-sm-6">-->
-                                    <!--<div class="single-our-service">-->
-                                        <!--<figure class="img-box">-->
-                                            <!--<a href=""><img width="370" height="190"-->
-                                                            <!--src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/4.jpg"-->
-                                                            <!--class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image"-->
-                                                            <!--alt=""-->
-                                                            <!--srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/4.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/4-300x154.jpg 300w"-->
-                                                            <!--sizes="(max-width: 370px) 100vw, 370px"/></a>-->
-                                        <!--</figure>-->
-                                        <!--<h4><a href="">Mechanical Engineering</a></h4>-->
-                                        <!--<p>Creating a dynamic company for the continuous exploration and develop-->
-                                            <!--opportunities.</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-4 col-sm-6">-->
-                                    <!--<div class="single-our-service">-->
-                                        <!--<figure class="img-box">-->
-                                            <!--<a href=""><img width="370" height="190"-->
-                                                            <!--src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/5.jpg"-->
-                                                            <!--class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image"-->
-                                                            <!--alt=""-->
-                                                            <!--srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/5.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/5-300x154.jpg 300w"-->
-                                                            <!--sizes="(max-width: 370px) 100vw, 370px"/></a>-->
-                                        <!--</figure>-->
-                                        <!--<h4><a href="">Petroleum and Gas</a></h4>-->
-                                        <!--<p>Petroleum Engineers are concerned with the exploration, discovery and-->
-                                            <!--production.</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-4 col-sm-6">-->
-                                    <!--<div class="single-our-service">-->
-                                        <!--<figure class="img-box">-->
-                                            <!--<a href=""><img width="370" height="190"-->
-                                                            <!--src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/6.jpg"-->
-                                                            <!--class="attachment-arctica_370x190 size-arctica_370x190 wp-post-image"-->
-                                                            <!--alt=""-->
-                                                            <!--srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/6.jpg 370w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/6-300x154.jpg 300w"-->
-                                                            <!--sizes="(max-width: 370px) 100vw, 370px"/></a>-->
-                                        <!--</figure>-->
-                                        <!--<h4><a href="">Power and Energy</a></h4>-->
-                                        <!--<p>Ensuring high reliability and optimal performance of rotating power-->
-                                            <!--equipment.</p>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</section>-->
-
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</section>-->
 <section class="kc-elm kc-css-119891 kc_row">
     <div class="kc-row-container">
         <div class="kc-wrap-columns">
@@ -417,70 +296,28 @@
                                 <h2>Latest Projects</h2>
                             </div>
                             <div class="latest-project-carousel">
-                                <div class="item">
-                                    <div class="single-project">
-                                        <figure class="imghvr-shutter-in-out-horiz">
-                                            <img width="270" height="190"
-                                                 src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/p1.jpg"
-                                                 class="attachment-arctica_270x190 size-arctica_270x190 wp-post-image"
-                                                 alt=""/>
-                                            <figcaption>
-                                                <div class="content">
-                                                    <h4><a href="">Petroleum Gas</a></h4>
-                                                    <p>Latest Projects</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
+                                @foreach($projects as $project)
+                                    <div class="item">
+                                        <div class="single-project">
+                                            <figure class="imghvr-shutter-in-out-horiz">
+                                                <img width="270" height="190"
+                                                     src="{{ asset('/storage/upload/'.$project->projectsImg[0]->filename) }}"
+                                                     class="attachment-arctica_270x190 size-arctica_270x190 wp-post-image"
+                                                     alt=""/>
+                                                <figcaption>
+                                                    <div class="content">
+                                                        <h4><a href="/project/{{$project->id}}">
+                                                                {{
+                                                                    $project->{'name_'.App::getlocale()}
+                                                                }}
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="single-project">
-                                        <figure class="imghvr-shutter-in-out-horiz">
-                                            <img width="270" height="190"
-                                                 src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/p2.jpg"
-                                                 class="attachment-arctica_270x190 size-arctica_270x190 wp-post-image"
-                                                 alt=""/>
-                                            <figcaption>
-                                                <div class="content">
-                                                    <h4><a href="">Multi Spring Push</a></h4>
-                                                    <p>Latest Projects</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="single-project">
-                                        <figure class="imghvr-shutter-in-out-horiz">
-                                            <img width="270" height="190"
-                                                 src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/p3.jpg"
-                                                 class="attachment-arctica_270x190 size-arctica_270x190 wp-post-image"
-                                                 alt=""/>
-                                            <figcaption>
-                                                <div class="content">
-                                                    <h4><a href="">Storage System</a></h4>
-                                                    <p>Latest Projects</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="single-project">
-                                        <figure class="imghvr-shutter-in-out-horiz">
-                                            <img width="270" height="190"
-                                                 src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/p4.jpg"
-                                                 class="attachment-arctica_270x190 size-arctica_270x190 wp-post-image"
-                                                 alt=""/>
-                                            <figcaption>
-                                                <div class="content">
-                                                    <h4><a href="">Menufacturing</a></h4>
-                                                    <p>Latest Projects</p>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
                     </section>
@@ -502,117 +339,55 @@
                                 <h2>Latest News</h2>
                             </div>
                             <div class="row">
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="default-blog-news wow fadeInUp animated animated"
-                                         style="visibility: visible; animation-name: fadeInUp;">
-                                        <figure class="img-holder">
-                                            <a href="http://tonatheme.com/newwp/factory/materials-manufacturing/"><img
-                                                        width="350" height="250"
-                                                        src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-2.jpg"
-                                                        class="attachment-arctica_350x250 size-arctica_350x250 wp-post-image"
-                                                        alt=""
-                                                        srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-2.jpg 350w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/1-2-300x214.jpg 300w"
-                                                        sizes="(max-width: 350px) 100vw, 350px"/></a>
-                                            <figcaption class="overlay">
-                                                <div class="box">
-                                                    <div class="content">
-                                                        <a href="http://tonatheme.com/newwp/factory/materials-manufacturing/"><i
-                                                                    class="fa fa-link" aria-hidden="true"></i></a>
+                                @foreach($news as $new)
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="default-blog-news wow fadeInUp animated animated"
+                                             style="visibility: visible; animation-name: fadeInUp;">
+                                            <figure class="img-holder">
+                                                <a href="{{'/news/'.$new->id}}">
+                                                    <img
+                                                            title=
+                                                            {{
+                                                                $new->{'title_'.App::getlocale()}
+                                                            }}
+                                                            width="350" height="250"
+                                                            src="{{ asset('/storage/upload/'.$new->img) }}"
+                                                            class="attachment-arctica_350x250 size-arctica_350x250 wp-post-image"
+                                                            alt=""
+                                                            sizes="(max-width: 350px) 100vw, 350px"/></a>
+                                                <figcaption class="overlay">
+                                                    <div class="box">
+                                                        <div class="content">
+                                                            <a href="{{'/news/'.$new->id}}"><i
+                                                                        class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
                                                     </div>
+                                                </figcaption>
+                                            </figure>
+                                            <div class="lower-content">
+                                                <h4>
+                                                    <a href="{{'/news/'.$new->id}}">
+                                                        {{
+                                                            $new->{'title_'.App::getlocale()}
+                                                        }}
+                                                    </a>
+                                                </h4>
+                                                <div class="text">
+                                                    <p>
+                                                        {{
+                                                           $new->{'description_'.App::getlocale()}
+                                                        }}
+                                                    </p>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="lower-content">
-                                            <h4><a href="http://tonatheme.com/newwp/factory/materials-manufacturing/">MATERIALS
-                                                    &#038; MANUFACTURING</a></h4>
-                                            <div class="post-meta">by admin | 0 Comment | 11 July</div>
-                                            <div class="text">
-                                                <p>Except to obtain some advantage from it? But who has any right to
-                                                    find to enjoy a pleasure.</p>
-                                            </div>
-                                            <div class="link">
-                                                <a href="http://tonatheme.com/newwp/factory/materials-manufacturing/"
-                                                   class="default_link">Read More <i
-                                                            class="fa fa-angle-right"></i></a>
+                                                <div class="link">
+                                                    <a href="{{'/news/'.$new->id}}"
+                                                       class="default_link">Read More <i
+                                                                class="fa fa-angle-right"></i></a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="default-blog-news wow fadeInUp animated animated"
-                                         style="visibility: visible; animation-name: fadeInUp;">
-                                        <figure class="img-holder">
-                                            <a href="http://tonatheme.com/newwp/factory/commercial-and-real-projects/"><img
-                                                        width="350" height="250"
-                                                        src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-2.jpg"
-                                                        class="attachment-arctica_350x250 size-arctica_350x250 wp-post-image"
-                                                        alt=""
-                                                        srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-2.jpg 350w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/2-2-300x214.jpg 300w"
-                                                        sizes="(max-width: 350px) 100vw, 350px"/></a>
-                                            <figcaption class="overlay">
-                                                <div class="box">
-                                                    <div class="content">
-                                                        <a href="http://tonatheme.com/newwp/factory/commercial-and-real-projects/"><i
-                                                                    class="fa fa-link"
-                                                                    aria-hidden="true"></i></a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="lower-content">
-                                            <h4>
-                                                <a href="http://tonatheme.com/newwp/factory/commercial-and-real-projects/">COMMERCIAL
-                                                    AND REAL PROJECTS</a></h4>
-                                            <div class="post-meta">by admin | 0 Comment | 11 July</div>
-                                            <div class="text">
-                                                <p>Great pleasure to take a trivial example, which of us undertakes
-                                                    laborious.</p>
-                                            </div>
-                                            <div class="link">
-                                                <a href="http://tonatheme.com/newwp/factory/commercial-and-real-projects/"
-                                                   class="default_link">Read More <i
-                                                            class="fa fa-angle-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="default-blog-news wow fadeInUp animated animated"
-                                         style="visibility: visible; animation-name: fadeInUp;">
-                                        <figure class="img-holder">
-                                            <a href="http://tonatheme.com/newwp/factory/materials-for-the-economy/"><img
-                                                        width="350" height="250"
-                                                        src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-2.jpg"
-                                                        class="attachment-arctica_350x250 size-arctica_350x250 wp-post-image"
-                                                        alt=""
-                                                        srcset="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-2.jpg 350w, http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/3-2-300x214.jpg 300w"
-                                                        sizes="(max-width: 350px) 100vw, 350px"/></a>
-                                            <figcaption class="overlay">
-                                                <div class="box">
-                                                    <div class="content">
-                                                        <a href="http://tonatheme.com/newwp/factory/materials-for-the-economy/"><i
-                                                                    class="fa fa-link"
-                                                                    aria-hidden="true"></i></a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="lower-content">
-                                            <h4><a href="http://tonatheme.com/newwp/factory/materials-for-the-economy/">MATERIALS
-                                                    FOR THE ECONOMY</a></h4>
-                                            <div class="post-meta">by admin | 0 Comment | 11 July</div>
-                                            <div class="text">
-                                                <p>Pleasure and praising pain was born and I will give you a complete
-                                                    account.</p>
-                                            </div>
-                                            <div class="link">
-                                                <a href="http://tonatheme.com/newwp/factory/materials-for-the-economy/"
-                                                   class="default_link">Read More <i
-                                                            class="fa fa-angle-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
                     </section>

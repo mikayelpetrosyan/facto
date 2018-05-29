@@ -10,18 +10,7 @@
 @if(session('status'))
     <p class="alert alert-success">{{ session('status') }}</p>
 @endif
-<form class="form-horizontal" role="form" action="{{ route('addsubservice') }}" method="POST" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="category" class="col-sm-3 control-label">Service</label>
-        <div class="col-sm-9">
-            <select class="form-control selectpicker" required="required" name="services_id" id="category" value="{{ old('category') }}">
-                <option value="">-- Select--</option>
-                @foreach ($services as $service)
-                    <option value="{{ $service->id }}">{{ $service->name_en }}</option>
-                @endforeach
-            </select>
-        </div>
-    </div>
+<form class="form-horizontal" role="form" action="{{ route('addnews') }}" method="POST" enctype="multipart/form-data">
     <div class="form-group">
         <label for="title_en" class="col-sm-3 control-label">Title</label>
         <div class="col-sm-9">
