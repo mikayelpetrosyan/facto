@@ -17,8 +17,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <div class="img-box">
-                    <!-- <img src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/07/10.jpg" alt="">-->
+                <div class="img-box" style="width: 100%;">
                     <div class="product-slider">
                         <div id="carousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">

@@ -373,7 +373,7 @@
                                                     </a>
                                                 </h4>
                                                 <div class="text">
-                                                    <p>
+                                                    <p class="news-tetx">
                                                         {{
                                                            $new->{'description_'.App::getlocale()}
                                                         }}
