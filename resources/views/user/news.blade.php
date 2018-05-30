@@ -20,7 +20,7 @@
                     <section class="blog-post no-padd-top no-padd-bottom">
                         <div class="single-blog-post">
                             <div class="img-holder">
-                                <img width="350" height="250"
+                                <img width="350" style="height:550px"
                                      title=
                                      {{
                                          $news[0]->{'title_'.App::getlocale()}
