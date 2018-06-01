@@ -72,7 +72,7 @@
                                             <li>
                                                 <div class="iocn-holder"><span class="icon-home"></span></div>
                                                 <div class="text-holder">
-                                                    <h6>321, Breaking Street</h6>
+                                                    <h6>85, Breaking Street</h6>
                                                     <p>Newyork ,USA 10002</p></div>
                                             </li>
                                             <li>
