@@ -79,7 +79,7 @@
                                                 <div class="iocn-holder"><span class="icon-technology-1"></span></div>
                                                 <div class="text-holder">
                                                     <h6>Call Us On</h6>
-                                                    <p>1-8000-978-6543</p>
+                                                    <p>055-52-52-85</p>
                                                 </div>
                                             </li>
                                             <li>
