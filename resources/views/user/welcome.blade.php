@@ -332,7 +332,7 @@
         <div class="kc-wrap-columns">
             <div class="kc-elm kc-css-94999 kc_col-sm-12 kc_column kc_col-sm-12">
                 <div class="kc-col-container">
-
+                @if(count($news)>0)
                     <section class="blog-section sec-padd2">
                         <div class="container">
                             <div class="section-title">
@@ -391,7 +391,7 @@
                             </div>
                         </div>
                     </section>
-
+                @endif
                 </div>
             </div>
         </div>
