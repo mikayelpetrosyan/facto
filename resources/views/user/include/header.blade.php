@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <div class="logo">
-                    <a href="http://tonatheme.com/newwp/factory/"><img src="http://tonatheme.com/newwp/factory/wp-content/uploads/2017/10/facto-black.png" alt="Arctica"
+                    <a href="/"><img src="{{asset('images/greenlad.png')}}" alt="Arctica"
                                                                        title="Arctica"></a>
                 </div>
             </div>
