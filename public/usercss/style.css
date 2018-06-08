@@ -434,7 +434,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     left: 0;
     width: 70px;
     height: 1px;
-    background: #f8b864;
+    background: #8cc63f;
 }
 .section-title.center:after {
     left: 50%;
@@ -695,7 +695,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 }
 
 .main-menu.style-2 {
-    float: right;
+    float: left;
 }
 
 .main-menu .navbar-collapse {
@@ -761,7 +761,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     position: absolute;
     left: 0px;
     top: 100%;
-    background: green;
+    background: #00ee4c;
     width: 230px;
     border-top: 2px solid #fff;
     padding: 12px 20px;
@@ -795,9 +795,11 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 .main-menu.style-2 .navigation > li > ul > li > a {
     color: #fff;
     padding: 12px 0px;
+    font-weight: bold;
 }
 .main-menu .navigation > li > ul > li:hover > a {
-    color: #8cc63f;
+    /*color: #8cc63f;*/
+
 }
 
 
@@ -921,7 +923,20 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     line-height: 67px;
     padding: 0 50px;
 }
+.headerSelect {
+    padding: 35px 0;
 
+}
+#languageSwitcher {
+    border: 1px solid #8cc63f;
+    color: #8cc63f;
+    background: #FFFFFF;
+    outline: none;
+    font-weight: 700;
+
+
+
+}
 
 .free-consulation-button{
     position: relative;

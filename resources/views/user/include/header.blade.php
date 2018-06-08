@@ -1,16 +1,15 @@
-
 <header class="header-area style-2 stricky">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                 <div class="logo">
                     <a href="/"><img src="{{asset('images/greenlad.png')}}" alt="Arctica"
-                                                                       title="Arctica"></a>
+                                     title="Arctica"></a>
                 </div>
             </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 ">
                 <div class="mainmenu-area">
-                    <div class="mainmenu-bg">
+                    <div class="mainmenu-bg ">
                         <!--main menu -->
                         <nav class="main-menu style-2">
                             <div class="navbar-header">
@@ -143,18 +142,18 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2">
-                <div class="right-column">
-                    <div class="right-area">
-                        <div class="link_btn float_right">
-                            <select id="languageSwitcher">
-                                <option value="en" {{App::getlocale() == 'en' ? 'selected' : ''}}>Eng</option>
-                                <option value="am" {{App::getlocale() == 'am' ? 'selected' : ''}}>Arm</option>
-                                <option value="ru" {{App::getlocale() == 'ru' ? 'selected' : ''}}>Ru</option>
-                            </select>
-                            <input type="hidden" id='input_token' name="_token" value="{{ csrf_token() }}">
-                        </div>
-                    </div>
+            <div class="col-lg-1 col-md-1 col-sm-2  float_right">
+
+                <div class="link_btn align-center headerSelect">
+                    <select id="languageSwitcher">
+                        <option value="en" {{App::getlocale()==
+                        'en' ? 'selected' : ''}}>Eng</option>
+                        <option value="am" {{App::getlocale()==
+                        'am' ? 'selected' : ''}}>Arm</option>
+                        <option value="ru" {{App::getlocale()==
+                        'ru' ? 'selected' : ''}}>Ru</option>
+                    </select>
+                    <input type="hidden" id='input_token' name="_token" value="{{ csrf_token() }}">
                 </div>
 
 
@@ -163,5 +162,6 @@
         </div>
     </div>
 </header>
-<div class="header-area"></div>
 
+
+<div class="header-area"></div>
